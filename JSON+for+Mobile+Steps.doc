@@ -1,0 +1,434 @@
+Message-ID: <1812155155.16696.1540845976222.JavaMail.confluence@ps2pr028231.express-scripts.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_16695_579197623.1540845976222"
+
+------=_Part_16695_579197623.1540845976222
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>JSON for Mobile Steps</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>JSON for Mobile Steps</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 100=
+.0%;">
+<colgroup>
+<col style=3D"width: 10.252366%;">
+<col style=3D"width: 39.353313%;">
+<col style=3D"width: 50.39432%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Action</th>
+<th class=3D"confluenceTh">JSON</th>
+<th class=3D"confluenceTh">Comments</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Configuration</strong></td>
+<td class=3D"confluenceTd"><p>"configuration": {<br> "screenshots": "on",<b=
+r> "<strong>mobileSetUp</strong>": {<br> "mobilePlatform": "Android",<br> "=
+platformVersion": "6.0",<br> "deviceName": "Android GoogleAPI Emulator",<br=
+> "appLocation": "sauce-storage:ESIPharmacy_qa_0823.apk",<br> "deviceOrient=
+ation": "portrait",<br> "appPackage" : "com.medco.medcopharmacy",<br> "appA=
+ctivity" : "com.medco.medcopharmacy.DummyActivity",<br> "platform": "saucel=
+abs",<br> "appiumVersion": "1.6.4",<br> "application" : "MedcoMobile" "auto=
+mationName": <span>"uiautomator2"</span></p><p>},<br> },</p></td>
+<td class=3D"confluenceTd"><p>Mobile configuration setup</p><p><u><strong>P=
+ossible Values :</strong></u></p><p><u><strong>Common for both IOS &amp; An=
+droid:</strong></u></p><p>mobilePlatform<strong> : Android, iOS</strong></p=
+><p>platformVersion : OS version ex- 6.0, 10.3</p><p><span>deviceName : Nam=
+e of the Device/Emulator/Simulator ex. <span>Android GoogleAPI Emulator, iP=
+hone 7 Simulator</span></span></p><p>appLocation<strong> : </strong>locatio=
+n of the app. App can be stored in sauce labs temporarily for testing. Chec=
+k sauce labs REST API to upload the files to storage.</p><p><span>deviceOri=
+entation : portrait, landscape</span></p><p><span>automationName : Pass thi=
+s value if test case having issues with the default automator. Default is A=
+ppium, <span style=3D"color: rgb(36,41,46);">XCUITest (IOS), <span style=3D=
+"color: rgb(36,41,46);">UiAutomator2 (Android)</span></span> </span></p><p>=
+<u><strong>Only Android:</strong></u></p><p>appPackage : application packag=
+e (can be found in AndroidManifest.xml)</p><p>appActivity : starting activi=
+ty <span>(can be found in AndroidManifest.xml)</span></p><p><span><br></spa=
+n></p><p><br></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>click</strong></td>
+<td class=3D"confluenceTd"><p>{<br> "click": {<br> "selectBy": "xpath",<br>=
+ "elementID": "//android.view.View[@content-desc =3D 'Price a Medication ']=
+",<br> "timeout": 100<br> }<br> }</p><p><br></p></td>
+<td class=3D"confluenceTd"><p><span>selectBy : location strategy, valid val=
+ues are id, xpath, name</span></p><p><span>elementID: value for location st=
+rategy</span></p><p>Normal click operation on any of the mobile element.</p=
+><p>timeout : default 100 seconds. will be used as a timeout for fluent wai=
+t until for an element to be visible before it performs a click action. Not=
+ mandatory.</p><p>index: if the location strategy finds more than one eleme=
+nt, provide the index of the element that you want.(index starts with 1)</p=
+></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>assert</strong></td>
+<td class=3D"confluenceTd"><p>{<br> "assert": {<br> "selectBy":"xpath",<br>=
+ "elementID" :"//XCUIElementTypeTable/XCUIElementTypeCell/XCUIElementTypeSt=
+aticText[9]",<br> "value":"200"<br> }<br>}</p></td>
+<td class=3D"confluenceTd"><p>selectBy : location strategy, valid values ar=
+e id, xpath, name</p><p>elementID: value for location strategy</p><p>value =
+: expected value</p><p>the text/value from the located element is matched w=
+ith the expected value.</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>input</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>{<br> "input": {<br> "selectBy"=
+: "xpath",<br> "elementID": "//android.widget.EditText[@content-desc =3D 'A=
+dd a medication to your medicine cabinet']",<br> "value": "Sporanox",<br> "=
+attributeName": "setvalue"<br> }<br> }</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>selectBy : location strategy, v=
+alid values are id, xpath, name</p><p>elementID: value for location strateg=
+y</p><p><span><span>value</span>: value to input to the text field</span></=
+p><p><span><span>attributeName(optional): attribute to set the value instea=
+d of input one by one</span><br></span></p><p><span><span>index: if the loc=
+ation strategy finds more than one element, provide the index of the elemen=
+t that you want.(index starts with 1)</span></span></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>goSearch</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>{<br> "goSearch": {<br> <br> }<=
+br> }</p></td>
+<td colspan=3D"1" class=3D"confluenceTd">This will tap on the search icon o=
+n the native keyboard.</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>tap</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>{<br> "tap": {<br> "selectBy": =
+"xpath",<br> "elementID": "//XCUIElementTypeButton[contains(@label, 'CONTIN=
+UE REGISTRATION')]",</p><p>"startX" :</p><p>"startY" :</p><p>"duration" : <=
+br> }<br> }</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>native mobile app, tap on the c=
+enter of the element provided with the below strategy</p><p>selectBy : loca=
+tion strategy, valid values are id, xpath, name</p><p>elementID: value for =
+location strategy</p><p>Should Pass either startX and startY(Absolute coord=
+inates on the screen) or the element location strategy.</p><p>duration(Defa=
+ults to 1000 ms, if not passed) - is the number of milliseconds the tap/pre=
+ss should occur.</p><p><span>timeout : default 100 seconds. will be used as=
+ a timeout for fluent wait until for an element to be visible before it per=
+forms a tap action. Not mandatory.</span></p><p><span><span>index: if the l=
+ocation strategy finds more than one element, provide the index of the elem=
+ent that you want.(index starts with 1)</span><br></span></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>swipe</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>{<br> "swipe": {<br> "direction=
+": "TopToBottom",<br> "duration": "3000",<br> "nooftimes" : "1"</p><p>"star=
+tSelectBy" :</p><p>"startElementID"</p><p>"<span>startElementID</span>" :</=
+p><p>"endElementID"</p><p>"startX" :</p><p>"startY" :</p><p>"endY" :</p><p>=
+"endY" :</p><p>}<br> }</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>swipe based on the element or s=
+creen coordinates or only with direction/number of times to swipe</p><p>Pos=
+sible values for direction are : LEFT, RIGHT, UP, DOWN</p><p><span><strong>=
+nooftimes</strong> : No. of times the swipe should happen. Mandatory to pas=
+s along with <strong>direction</strong>. This wont have any effect if swipe=
+ is used either for location strategy or coordinates.</span></p><p><strong>=
+duration</strong>(Defaults to 3000 ms, if not passed ) : wait time after pr=
+essing on the screen initially and before dragging finger to the end positi=
+on</p><p><span><strong>startSelectBy, </strong><span><strong>startElementID=
+, </strong><span><strong>startElementID, </strong><span><strong>endElementI=
+D</strong> - element location strategies for the swipe to occur from start =
+of the element to the end</span></span></span></span></p><p><span><span><sp=
+an><span><span><strong>startX, </strong><span><strong>startY, </strong><spa=
+n><strong>endY, </strong><span><strong>endY</strong> : Absolute X and Y coo=
+rdinates of the start and end of teh swipe on the mobile screen.</span></sp=
+an></span></span><br></span></span></span></span></p><p><strong>Note:</stro=
+ng></p><p>3 possible combinations can be used based on the requirement. eit=
+her the direction with no.of times or from one element to another element o=
+r based on the coordinates.</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>scroll</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>{<br> "scroll": {<br> "selectBy=
+": "xpath",<br> "elementID": "//XCUIElementTypeStaticText[contains(@label, =
+'I am the member')]"</p><p>"direction" : <br> }<br> },</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0=
+,0);"><strong>Only For IOS</strong></span></p><p>IOS has some <span style=
+=3D"color: rgb(0,0,0);">issues</span> working with touch action API (swipe)=
+. SO, created a workaround action scroll.</p><p><span>selectBy, <span>eleme=
+ntID : scroll/swipe will happen from current position to this element.</spa=
+n></span></p><p>direction(down, up) : scrolls up and down a page</p><p>Any =
+one of the above stategies should be used.</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>waitForElement</strong></t=
+d>
+<td colspan=3D"1" class=3D"confluenceTd"><p>{<br> "waitForElement": {<br> "=
+selectBy": "xpath",<br> "elementID": "//XCUIElementTypeStaticText[contains(=
+@label , 'Patient')]",<br> "timeout": 200<br> }<br> }</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>waits until the element with th=
+e below strategy is located</p><p>selectBy : location strategy, valid value=
+s are id, xpath, name</p><p>elementID: value for location strategy</p><p><s=
+pan>timeout : default 100 seconds. will be used as a timeout for fluent wai=
+t until for an element to be visible. Not mandatory</span></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>hideKeyBoard</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>{<br> "hideKeyBoard": {<br> "hi=
+de": "true"<br> }<br> }</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>hides the keyboard.</p><p>Hides=
+ the keyboard on the screen to avoid issues with swipe and locating element=
+s which are behind the keyboard.</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>closeApp</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;{"closeApp" :{"Close":"true"=
+}}</td>
+<td colspan=3D"1" class=3D"confluenceTd">closes the driver and ends the ses=
+sion</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>launchApp</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>{<br> "launchApp": {<br> }<br> =
+}</p></td>
+<td colspan=3D"1" class=3D"confluenceTd">launches the app</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>draw</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>{<br> "draw": {<br> "selectBy":=
+ "xpath",<br> "elementID": "//XCUIElementTypeStaticText[contains(@name, 'X'=
+)]/preceding::XCUIElementTypeOther[1]",<br> "timeout": "240"<br> }<br>}</p>=
+</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>draw a straight line in the mid=
+dle of the element if location strategy(<strong>selectBy, elementID</strong=
+>) is provided else, draw line based on the start and end coordinates</p><p=
+><strong><span>selectBy</span>, <span>elementID</span></strong> - element l=
+ocation strategies for the swipe to occur from start of the element to the =
+end</p><p><span>index: if the location strategy finds more than one element=
+, provide the index of the element that you want.(index starts with 1)</spa=
+n></p><p><strong>startX, </strong><strong>startY, </strong><strong>endY, </=
+strong><strong>endY</strong> : Absolute X and Y coordinates of the start an=
+d end points to draw a line.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_16695_579197623.1540845976222--

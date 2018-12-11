@@ -1,0 +1,642 @@
+Message-ID: <1587553798.17045.1540847053838.JavaMail.confluence@ps2pr028231.express-scripts.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_17044_869401212.1540847053838"
+
+------=_Part_17044_869401212.1540847053838
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>JSON Elements - SOAP/REST Adaptor</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>JSON Elements - SOAP/REST Adaptor</h1>
+    <div class=3D"Section1">
+        <p>JSON element for SOAP/REST adaptor follows the below structure</=
+p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Element</th>
+<th class=3D"confluenceTh">Definition</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">configuration</td>
+<td class=3D"confluenceTd">Configuration section for adding&nbsp;SOAP/REST =
+server configuration details</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">soapEndPoints</td>
+<td class=3D"confluenceTd">SOAP&nbsp;end point details</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">restEndPoints</td>
+<td colspan=3D"1" class=3D"confluenceTd">REST end point details</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">serverName</td>
+<td class=3D"confluenceTd">Unique name to identify the server</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">wsdlURL</td>
+<td colspan=3D"1" class=3D"confluenceTd">Needed only&nbsp;when configuring&=
+nbsp;SOAP endpoints representing SOAP wsdl url</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">serviceURL</td>
+<td colspan=3D"1" class=3D"confluenceTd">Needed only&nbsp;when configuring&=
+nbsp;REST endpoints representing&nbsp;REST service&nbsp;url</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">operationName</td>
+<td colspan=3D"1" class=3D"confluenceTd">Indicates the web service method a=
+ccessed</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">method</td>
+<td colspan=3D"1" class=3D"confluenceTd">Indicates GET/POST method</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">user</td>
+<td colspan=3D"1" class=3D"confluenceTd">User Name (Not mandatory)</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">password</td>
+<td colspan=3D"1" class=3D"confluenceTd">Password (encoded) (Not mandatory)=
+</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">input</td>
+<td colspan=3D"1" class=3D"confluenceTd">Input data for the server</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">value</td>
+<td class=3D"confluenceTd">Indicates the request object/values that&nbsp;ne=
+eds to be passed to the web service</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;responseName</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;Need to give the alias name =
+for the response to assert</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">assert</td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">&nbsp;assert data</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;encoded</td>
+<td colspan=3D"1" class=3D"confluenceTd">if &nbsp;encoded=3Dtrue so need to=
+ give the encryption password value</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">resourceuri</td>
+<td colspan=3D"1" class=3D"confluenceTd">additional path Uri to be appended=
+ to the <span>serviceURL</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">REST Sample JSON</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: text; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence">{
+&nbsp;"testCase": {
+&nbsp;&nbsp;"name": "b2bcoveragecheck",
+&nbsp;&nbsp;"curator": "ef3649",
+&nbsp;&nbsp;"configuration": {
+&nbsp;&nbsp;&nbsp;"RESTEndPoints": [{
+   "configName": "Rest",=20
+&nbsp;&nbsp;&nbsp;&nbsp;"serviceName": "coverageCheck",
+&nbsp;&nbsp;&nbsp;&nbsp;"serviceURL": "https://b2bcoveragecheck-1-qa.apps.c=
+h3pcf01.express-scripts.com/v1/coverageCheck",
+&nbsp;&nbsp;&nbsp;&nbsp;"operationName": "coverageCheck",
+&nbsp;&nbsp;&nbsp;&nbsp;"method": "POST",
+&nbsp;&nbsp;&nbsp;&nbsp;"username": "",
+&nbsp;&nbsp;&nbsp;&nbsp;"password": "",
+      "encoded": false,
+&nbsp;&nbsp;&nbsp;&nbsp;"headerParams": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"CLIENTID": "ELGUPMC"
+&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;"contentType": "json"
+&nbsp;&nbsp;&nbsp;}]
+&nbsp;&nbsp;},
+&nbsp;&nbsp;"testSteps": [{
+&nbsp;&nbsp;&nbsp;"input": {
+   "configName": "Rest",=20
+&nbsp;&nbsp;&nbsp;&nbsp;"serviceName": "coverageCheck",
+&nbsp;&nbsp;&nbsp;&nbsp;"responseName": "coverageCheckResponse",
+&nbsp;&nbsp;&nbsp;&nbsp;"inputValue": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prescriber": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"firstName": "RONALD",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"lastName": "AYABE",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"stateLicensing": [{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"state": "NJ",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"number": "07645"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"pharmacy": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"npi": "1770645822",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ncpdpProviderId": "3924380",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name": "MERCY HEALTH CENTER PHCY"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"membership": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"cardHolderId": "015629187819"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"patient": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"resourceId": "38694102496156160",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"patientAgn": "0561365119",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"personNumber": "001"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prescribedMedication": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"drug": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ndc": "00003037113"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"quantity": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "10"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"dateOfService": "2009-01-01",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"daysSupply": "30",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"daw": "0",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"dateWritten": "2016-01-01"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;}
+
+&nbsp;&nbsp;}, {
+&nbsp;&nbsp;&nbsp;"assert": {
+&nbsp;&nbsp;&nbsp;&nbsp;"actualValue": "$coverageCheckResponse.coverageAler=
+ts.code",
+&nbsp;&nbsp;&nbsp;&nbsp;"value": "AB"
+&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;}, {
+&nbsp;&nbsp;&nbsp;"assert": {
+&nbsp;&nbsp;&nbsp;&nbsp;"actualValue": "$coverageCheckResponse.pharmacy.npi=
+",
+&nbsp;&nbsp;&nbsp;&nbsp;"value": "1770645822"
+&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;},{
+&nbsp;&nbsp;&nbsp;"assert": {
+&nbsp;&nbsp;&nbsp;&nbsp;"actualValue": "$coverageCheckResponse.quantity",
+&nbsp;&nbsp;&nbsp;&nbsp;"value": "010"
+&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;}, {
+&nbsp;&nbsp;&nbsp;"assert": {
+&nbsp;&nbsp;&nbsp;&nbsp;"actualValue": "$coverageCheckResponse.ndc",
+&nbsp;&nbsp;&nbsp;&nbsp;"value": "00003037113"
+&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;}]
+&nbsp;}
+}</pre>=20
+</div>=20
+</div>
+<ul>
+<li class=3D"auto-cursor-target">If the request contains XML schema tags th=
+en we need to change into the below format and the rest of the body request=
+ we can have same as actual request.</li>
+</ul>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 43.=
+61%;">
+<colgroup>
+<col style=3D"width: 79.14%;">
+<col style=3D"width: 20.84%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Actual Format</th>
+<th style=3D"margin-left: 150.0px;" class=3D"confluenceTh">Expected Format<=
+/th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;&lt;?xml version=3D<strong>"=
+1.0"</strong> encoding=3D"UTF-8"?&gt; &lt;tns:GetClientSetupRequest xmlns:t=
+ns=3D"<a href=3D"http://userauthorization.services.esrx.com" class=3D"exter=
+nal-link" rel=3D"nofollow">http://userauthorization.services.esrx.com</a>" =
+xmlns:xsi=3D"<a href=3D"http://www.w3.org/2001/XMLSchema-instance" class=3D=
+"external-link" rel=3D"nofollow">http://www.w3.org/2001/XMLSchema-instance<=
+/a>" xsi:schemaLocation=3D"<a href=3D"http://userauthorization.services.esr=
+x.com" class=3D"external-link" rel=3D"nofollow">http://userauthorization.se=
+rvices.esrx.com</a> GetClientSetup.xsd "&gt;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;&lt;?xml version=3D<strong>\=
+"1.0\"</strong> encoding=3D\"UTF-8\"?&gt; &lt;tns:GetClientSetupRequest xml=
+ns:tns=3D\"<a rel=3D"nofollow">http://userauthorization.services.esrx.com\<=
+/a>" xmlns:xsi=3D\"<a rel=3D"nofollow">http://www.w3.org/2001/XMLSchema-ins=
+tance\</a>" xsi:schemaLocation=3D\"<a href=3D"http://userauthorization.serv=
+ices.esrx.com" class=3D"external-link" rel=3D"nofollow">http://userauthoriz=
+ation.services.esrx.com</a> GetClientSetup.xsd \"&gt;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Rest XML Json Format</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: text; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence">{
+&nbsp;"testCase": {
+&nbsp;&nbsp;"name": "userauthorization Service getClientSetup",
+&nbsp;&nbsp;"curator": "",
+&nbsp;&nbsp;"configuration": {
+&nbsp;&nbsp;&nbsp;"RESTEndPoints": [{
+   "configName": "Rest",=20
+&nbsp;&nbsp;&nbsp;&nbsp;"serviceName": "userauthorization",
+&nbsp;&nbsp;&nbsp;&nbsp;"serviceURL": "https://userauthorization-1-dev.edro=
+p.express-scripts.com/getClientSetup",
+&nbsp;&nbsp;&nbsp;&nbsp;"operationName": "getClientSetup",
+&nbsp;&nbsp;&nbsp;&nbsp;"method": "POST",
+&nbsp;&nbsp;&nbsp;&nbsp;"username": "",
+&nbsp;&nbsp;&nbsp;&nbsp;"password": "",
+    "encoded": false,
+&nbsp;&nbsp;&nbsp;&nbsp;"contentType": "xml"
+&nbsp;&nbsp;&nbsp;}]
+&nbsp;&nbsp;},
+&nbsp;&nbsp;"testSteps": [
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"input": {
+   "configName": "Rest",=20
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"serviceName": "userauthorization",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"inputValue": "&lt;?xml version=3D\"1.0\" enc=
+oding=3D\"UTF-8\"?&gt;&lt;tns:GetClientSetupRequest xmlns:tns=3D\"http://us=
+erauthorization.services.esrx.com\" xmlns:xsi=3D\"http://www.w3.org/2001/XM=
+LSchema-instance\" xsi:schemaLocation=3D\"http://userauthorization.services=
+.esrx.com GetClientSetup.xsd \"&gt;&lt;tns:TestMode&gt;N&lt;/tns:TestMode&g=
+t;&lt;tns:Channel&gt;tns:Channel&lt;/tns:Channel&gt;&lt;tns:UserId&gt;tns:U=
+serId&lt;/tns:UserId&gt;&lt;tns:Format&gt;tns:Format&lt;/tns:Format&gt;&lt;=
+tns:Timeout&gt;30000&lt;/tns:Timeout&gt;&lt;tns:sourceUser&gt;esd&lt;/tns:s=
+ourceUser&gt;&lt;tns:Client&gt;&lt;tns:id&gt;0828&lt;/tns:id&gt;&lt;tns:gro=
+upId&gt;&lt;/tns:groupId&gt;&lt;/tns:Client&gt;&lt;tns:returnUserCount&gt;Y=
+&lt;/tns:returnUserCount&gt;&lt;/tns:GetClientSetupRequest&gt;",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"responseName": "getClientSetupResponse"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;}, {
+&nbsp;&nbsp;&nbsp;&nbsp;"assert": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "0006",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"actualValue": "${getClientSetupResponse.GetC=
+lientSetupResponse.Client.profileCount}"
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;}, {&nbsp;&nbsp;&nbsp;&nbsp;"ass=
+ert": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "FDGFDGFDGDF",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"actualValue": "${getClientSetupResponse.GetC=
+lientSetupResponse.Client.Profiles.Profile.description}"
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;]&nbsp;}}</pre>=20
+</div>=20
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">SOAP Sample JSON</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: text; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence">{
+&nbsp;&nbsp;&nbsp; "testCase": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "name": "NRX NewOrder Creation",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "curator": "ee2764",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "configuration": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "SOAPEnd=
+Points": {
+               "configName": "SOAP",=20
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp; "serviceName": "Book Service",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp; "wsdlURL": "http://localhost:8088/MyApp/ws/books.wsdl"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; },
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "testSteps": [
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp; "input": {
+                  "configName": "SOAP",=20
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "serviceName": "Book Service",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "operationName": "addBook",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "value": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "addBookReq=
+uest": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp; "book": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "name": "My Book",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "author": "Jim",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "price": "$25"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp; }
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; },
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "response": "addBookResponse"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp; }
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; },
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp; "input": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "serviceName": "Book Service",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "operationName": "getBook",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "value": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "getBookReq=
+uest": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp; "name": "My Book"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; },
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "response": "getBookResponse"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp; }
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; },
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp; "assertName": "",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp; "value": ""
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; },
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp; "assertName": "",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp; "value": ""
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ]
+&nbsp;&nbsp;&nbsp; }
+}</pre>=20
+</div>=20
+</div>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_17044_869401212.1540847053838--
