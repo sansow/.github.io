@@ -1,0 +1,381 @@
+Message-ID: <67278646.16700.1540845984594.JavaMail.confluence@ps2pr028231.express-scripts.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_16699_174226914.1540845984594"
+
+------=_Part_16699_174226914.1540845984594
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Inline Functions</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Inline Functions</h1>
+    <div class=3D"Section1">
+        <p>Inline functions created:</p>
+<ol>
+<li><strong>uppercase</strong> =E2=80=93 converts the session variable to u=
+ppercase</li>
+<li><strong>lowercase</strong> =E2=80=93 converts the session variable to l=
+owercase</li>
+<li><strong>dateformat&nbsp;</strong>=E2=80=93&nbsp; converts the date form=
+at for the lookup value<br> syntax: $&lt;inline function name&gt;(${lookup =
+date value},actual date format, expected date format)<br>Example:&nbsp; "$d=
+ateformat(${Demo[0].E111-ELIG-FROM-DT},yyyyMMdd,MM/dd/yyyy)"</li>
+<li><strong>currentdate</strong> =E2=80=93 converts the date format in a st=
+ring to current date<br>Example:"$currentdate(Balance as of MM/dd/yyyy)"&nb=
+sp;&nbsp;&nbsp;</li>
+<li><strong>transform</strong>=E2=80=93check the possible values from looku=
+p value<br>syntax: $&lt;inline function name&gt;(${lookup value}, actual lo=
+okup value, expected value, actual lookup value, expected value)<br>Example=
+: $transform(${Demo[0].E111-INTERNET-IND},1,Active,2,Deactive)"</li>
+<li><strong>sum </strong>- adds numbers separated by comma. Also, considers=
+ numbers with '$' prefix <br>syntax: $sum(&lt;numbers-separated-by-comma&gt=
+;)<br>Ex: $sum(45.34,234,-90) (or) $sum($45.34,$234,$-90)</li>
+<li><strong>concat</strong> - concats two strings<br>Example: $concat(test,=
+case)</li>
+<li><strong>datefTimeFormat&nbsp;</strong>=E2=80=93&nbsp; converts the date=
+ time format for the lookup value syntax: $&lt;inline function name&gt;(${l=
+ookup date time&nbsp;value},actual date time&nbsp;format, expected date tim=
+e&nbsp;format)<br>&nbsp;&nbsp;Example:&nbsp; "$dateTimeformat(${dbresponse0=
+.result[0].INSERT_TMS},yyyy-MM-dd HH:mm:ss.SSSSSS,yyyy-MM-dd-HH:mm:ss.SSSSS=
+S)"</li>
+<li><strong>substring </strong>-<strong>&nbsp; </strong>Returns substring b=
+ased on the string, startIndex and endIndex. Index starts with zero by defa=
+ult.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;Example : <span style=3D"color: rgb(51,51,51);text-transform: none;tex=
+t-indent: 0.0px;letter-spacing: normal;word-spacing: 0.0px;float: none;disp=
+lay: inline;white-space: normal;font-size-adjust: none;font-stretch: normal=
+;background-color: rgb(245,245,245);">$substring(${getClientSetupResponse.R=
+esponse.ResPrescriptionList.ResPrescriptionDrugNdc}, 0, 6)</span><br>&nbsp;=
+If we want string position need to start from the 1 then we need to use the=
+ below syntax.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;Example : <span style=3D"color: rgb(51,51,51);">$substring(${getCl=
+ientSetupResponse.Response.ResPrescriptionList.ResPrescriptionDrugNdc}, 0, =
+6,1)</span></li>
+<li><strong>and</strong> - Returns true only if all the values are true and=
+ return false if at least one value is false.<br>Example : $and($notequal($=
+{StatusChangeTrigger.result[0].PROCESS_STATUS_CD},R),$notequal(${StatusCurr=
+Part.result[0].PROCESS_STATUS_CD},C)).</li>
+<li><strong>or</strong>- Returns false only if all the values are false and=
+ return true if at least one value is true.<br>Example : $or($notequal(${St=
+atusChangeTrigger.result[0].PROCESS_STATUS_CD},R),$notequal(${StatusCurrPar=
+t.result[0].PROCESS_STATUS_CD},C)).</li>
+<li><strong>not</strong>- Returns true only if value is false and return fa=
+lse if value is true.(should pass only one value)<br>Example : $not($notequ=
+al(${StatusChangeTrigger.result[0].PROCESS_STATUS_CD},R)).</li>
+<li><strong>division</strong> : provides the quotient in integer after divi=
+ding the 2 arguments. e.g.&nbsp;$division(${selectedRow},3).</li>
+<li><strong>datemodifier</strong> - Modifies the date, month or year of giv=
+en date and return new date in same format as input.<br>Syntax : $datemodif=
+ier(old date,format,modifier:count)<br>Modifier : to change day-&gt; date, =
+month-&gt; month, year-&gt; year.Count : count can be + or - integer (+1 or=
+ -1).<br>Example : $datemodifier(2018-01-03,yyyy-MM-dd,date:3)---&gt;&gt;20=
+18-01-06</li>
+<li><p><strong>emptyspacegenerator</strong>(base string,len) - modifies the=
+ &lt;base string&gt; to a string containing empty spaces at the end until i=
+t reaches a length of &lt;len&gt;&nbsp;<br>It can be used in mainframe test=
+ cases to set the length of the field based on the available length in the =
+rumba screen.</p></li>
+<li><p><strong>split - </strong>Populate the data into session by splitting=
+ the data based on the delimiter provided.</p><p>&nbsp;&nbsp;Syntax&nbsp;: =
+$split(content,|,response)&nbsp; =E2=86=92 content: flat String, | : any de=
+limiter value, alias name to populate the data into session.</p></li>
+<li><strong>noquotes</strong> -&nbsp;replaces the string with quotes to eit=
+her a number or Boolean by removing the quotes around it. See below for usa=
+ge and the difference with and without this inline function.<br>e.g -&nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp;"age": "${DaaSResponse.results.animal.age}"&nbs=
+p;&nbsp;=E2=86=92&nbsp; "age" : "10"<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; "age": "$noquotes(${DaaSResponse.results.animal.age})"=
+&nbsp;&nbsp;=E2=86=92&nbsp;"age" : 10</li>
+</ol>
+<p>&nbsp; &nbsp; &nbsp;18. <strong>encryptBase64</strong> - It will take th=
+e plain text/content and return base 64 encrypted format as below.<br>&nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ex:$encryptBase64(Inline =
+functions created) and it will return the encrypted base 64 content as "SW5=
+saW5lIGZ1bmN0aW9ucyBjcmVhdGVk"<br>&nbsp; &nbsp; &nbsp;19. <strong>decryptBa=
+se64</strong> - it will decrypt the base 64 encrypted content format and re=
+turn the plain string.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;Ex:$decryptBase64(SW5saW5lIGZ1bmN0aW9ucyBjcmVhdGVk) and it will retur=
+n plain text like "Inline functions created"</p>
+<p>&nbsp; &nbsp; 20. <strong>append</strong> - it will take list of strings=
+ as input(any number of) and it will append the strings one after another.<=
+br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ex : $append(abcd=
+,efgh,!,@,%,^,&amp;,*,{,},[,], ,(,;,:,$,%,`,&gt;,&lt;,sgdfhgdshfghks,$$$$,x=
+yz.abcd)" and it will return "abcdefgh!@%^&amp;*{}[] (;:$%`&gt;&lt;sgdfhgds=
+hfghks$$$$xyz.abcd"<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; it will not accept couple of special characters like <str=
+ong>)</strong>,'<strong>,</strong>',<strong>"</strong>.</p>
+<p>&nbsp; &nbsp; &nbsp;21. <strong>index</strong> - This inline function wi=
+ll take two input strings as parameters ,one is target string and second on=
+e is char sequence(the one which we need the index for),it will return the =
+first index(integer) of the char sequence in the&nbsp; &nbsp;target string.=
+if that particular char sequence is in found in the target string it will r=
+eturn -1.</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ex: $index(The following litera=
+ls are added into session data,data),it will return integer 46<br>&nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $index(The following literal=
+s are added into session data,date),it will return integer -1</p>
+<p><br><br></p>
+<p><br></p>
+<p><strong>Features</strong>:</p>
+<ol>
+<li>Inline functions can be used multiple times within a CopyBook request.<=
+/li>
+<li>Without an inline function, the session variable will be passed as it i=
+s.</li>
+</ol>
+<p><strong>Format</strong> - $&lt;inline function name&gt;(${&lt;session va=
+riable&gt;})</p>
+<p><strong>Sample JSON:</strong></p>
+<p>"testSteps": [{</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; "input": {</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "mqendPointName":=
+ "E110",</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "configName": "MQ=
+",</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "E110-SEARCH-IND"=
+: "M",</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "E110-MEMBER" : "=
+$uppercase(${memberNumber})",</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "E110-GROUP": "$l=
+owercase(${memberGroup})",</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; }</p>
+<p>}]</p>
+<p><strong>Sample JSON:</strong></p>
+<p>{<br> "select": {<br> "label": "$<strong>emptyspacegenerator</strong>(${=
+tdmResponse2[0].groupId},17)COPAY GROUP CARD ${tdmResponse2[0].possibleStar=
+tDate} PROD EH8481 ${tdmResponse2[0].possibleEndDate}",<br> "value": "s",<b=
+r> "position": "before"<br> }<br> },</p>
+<p>Feature :Inline function arguments with special charcter.</p>
+<p>Enhanced inline function capability by allowing special character as a a=
+rguments. Below valid format</p>
+<p>Format : 1. $inlineFunctionName('agr1,arg2,arg3')</p>
+<p>2. $inlineFunctionName('agr1,arg2,$subInlineFun('agr1,arg2')')</p>
+<p>3. $inlineFunctionName('agr1','arg2','arg3')</p>
+<p>4. $inlineFunctionName('agr1','arg2','$subInlineFun('agr1','arg2')')</p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_16699_174226914.1540845984594--

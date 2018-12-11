@@ -1,0 +1,747 @@
+Message-ID: <646009808.16676.1540845966925.JavaMail.confluence@ps2pr028231.express-scripts.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_16675_1157172645.1540845966925"
+
+------=_Part_16675_1157172645.1540845966925
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>JSON Elements - Mainframe.</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>JSON Elements - Mainframe.</h1>
+    <div class=3D"Section1">
+        <p class=3D"auto-cursor-target" style=3D"text-align: center;"><stro=
+ng>Input - Various types of Inputs are as defined below.</strong></p>
+<p class=3D"auto-cursor-target">Input - Label - Allows to add data on scree=
+n by searching with label values.</p>
+<ul>
+<li class=3D"auto-cursor-target">Input - Keys - Allows to send key strokes =
+to screen.</li>
+</ul>
+<p class=3D"auto-cursor-target" style=3D"margin-left: 30.0px;">This step de=
+finition allows to enter data on screen. This has various flavors of input =
+mechanism.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Input - Keys.</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence">{ "input": { "Keyname": "CTRL+PF2" } },
+{ "input": { "keyname": "ENTER" } },
+{ "input": { "keyname": "PF1" } },
+{ "input": { "keyname": "PF11" } },
+{ "input": { "keyname": "PF3" } },
+{ "input": { "keyname": "PF5" } },
+
+</pre>=20
+</div>=20
+</div>
+<ul>
+<li><p class=3D"auto-cursor-target">Input - Label - Before - Write to scree=
+n before a particular label value.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Label - Before.</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence"> { "input": { "label": "%03 DRUG NOT FOUND%", "value": "c", "posit=
+ion": "before" } },
+ { "input": { "label": "ATENOLOL PWD 25GM", "value": "x", "position": "befo=
+re" } },
+
+</pre>=20
+</div>=20
+</div></li>
+<li><p class=3D"auto-cursor-target" style=3D"text-align: left;">Input - Lab=
+el - After- Write to screen after a particular label value.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Label - After.</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence">{ "input": { "label": "ADDRESS", "value": "12728 N 72nd AVE", "pos=
+ition": "after" } },
+ { "input": { "label": "Act-qty", "value": "30 ", "position": "after" } },
+ { "input": { "label": "Act-rfls", "value": "3 ", "position": "after" } },
+ { "input": { "label": "CUST", "value": "355629078762", "position": "after"=
+ } },
+ { "input": { "label": "Command", "value": "MEDQA", "position": "after" } }=
+,
+ { "input": { "label": "Command", "value": "TSOB", "position": "after" } },
+ { "input": { "label": "Command", "value": "ru", "position": "after" } },
+ { "input": { "label": "Creator", "value": "DB0QNRX0", "position": "after" =
+} },
+ { "input": { "label": "Creator", "value": "DB0QPOL0", "position": "after" =
+} },
+ { "input": { "label": "DB2 SSID", "value": "DB2B", "position": "after" } }=
+,
+ { "input": { "label": "DB2 SSID", "value": "DB2E", "position": "after" } }=
+,
+ { "input": { "label": "DRUG NAME", "value": "ATENOLOL PWD 25GM", "position=
+": "after" } },
+ { "input": { "label": "DaySply", "value": "30 ", "position": "after" } },
+ { "input": { "label": "End of Order", "value": "y", "position": "after" } =
+},
+ { "input": { "label": "IF YOU WANT TO SIGN OFF ENTER \"N\" HERE", "value":=
+ "n", "position": "after" } },
+ { "input": { "label": "ISS-DT", "value": "011217", "position": "after" } }=
+,
+ { "input": { "label": "Is The Above Address Information Correct?", "value"=
+: "y", "position": "after" } },
+ { "input": { "label": "Is The Above Payment Information Correct?", "value"=
+: "y", "position": "after" } },
+ { "input": { "label": "Item Name", "value": "NRXE2200", "position": "after=
+" } },
+ { "input": { "label": "Item Name", "value": "POLADR00", "position": "after=
+" } },
+ { "input": { "label": "LAST-RX-IN-PAN", "value": "y", "position": "after" =
+} },</pre>=20
+</div>=20
+</div></li>
+</ul>
+<p class=3D"auto-cursor-target">Input - Row / Column - Write to screen at c=
+o-ordinates given at row and column.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Input - Row / Column.</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence"> { "input": { "row": 12, "column": 57, "value": "p" } },
+ { "input": { "row": 13, "column": 45, "value": "01" } },
+ { "input": { "row": 14, "column": 1, "value": "x" } },
+ { "input": { "row": 20, "column": 69, "value": "Y" } },
+ { "input": { "row": 23, "column": 18, "value": "b" } },</pre>=20
+</div>=20
+</div>
+<p class=3D"auto-cursor-target">Input - Label - Occurance- Write to screen =
+before a label that are duplicate or have multiple occurrence on screen.</p=
+>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Input Label for duplicate occurrence</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence">      {
+        "input": {
+          "label": "FLAT1",
+          "value": "000001",
+          "position": "after",
+          "occurrence": "1"
+        }
+      },
+      {
+        "input": {
+          "label": "FLAT1",
+          "value": "000002",
+          "position": "after",
+          "occurrence": "2"
+        }
+      },
+      {
+        "input": {
+          "label": "FLAT1",
+          "value": "000003",
+          "position": "after",
+          "occurrence": "3"
+        }
+      },</pre>=20
+</div>=20
+</div>
+<p><br></p>
+<hr>
+<p class=3D"auto-cursor-target" style=3D"text-align: center;"><strong>Wait =
+- Wait on screen based on below parameters.</strong><br><br></p>
+<ul>
+<li><p class=3D"auto-cursor-target">Wait - Row / Column - Wait on screen at=
+ given co-ordinates for given time in milliseconds.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Wait - Row / Column.</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence">{ "wait": { "row": 22, "column": 14, "value": "region", "timeInMil=
+lis": 5 } },
+ { "wait": { "row": 5, "column": 29, "value": "Entry Validation", "timeInMi=
+llis": 5 } },
+ </pre>=20
+</div>=20
+</div></li>
+<li><p class=3D"auto-cursor-target">Wait - Wait on screen at current positi=
+on for given time in milliseconds.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Wait - based on time.</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence">{ "wait": { "timeInMillis": 5 } }=20
+{ "wait": { "timeInMillis": 5 } },
+ </pre>=20
+</div>=20
+</div>
+<hr><p class=3D"auto-cursor-target" style=3D"text-align: center;"><strong>R=
+ead Value - Read data from screen based on below parameters.</strong></p></=
+li>
+<li><p class=3D"auto-cursor-target">Read and Store - Row / Column - Read va=
+lues at given co-ordinates given on row and column position.</p><p class=3D=
+"auto-cursor-target">The value read is stored inside application session, a=
+nd store in hashmap with key name - ( eg below - "acptcode" ).</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Read and Store - Row /Column</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence">{ "readValue": { "row": 20, "column": 17, "value": "acptcode" } },=
+</pre>=20
+</div>=20
+</div><p class=3D"auto-cursor-target" style=3D"text-align: center;"><strong=
+>Assert- Various types of Asserts are as defined below.</strong><br><br></p=
+></li>
+<li>Assert does the task or comparing values that are passed from JSON data=
+ to compare with what is present on that location. If the comparison of dat=
+a fails the assert result-set is returned as failure. The assert processing=
+ result is send in response JSON back.<br><br></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Assert at row and column</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence">"assert": {
+=09=09"row": 6,
+        "column": 15,
+        "value": "Password....."
+=09}</pre>=20
+</div>=20
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Assert at Label</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence">{
+        "assert": {
+          "label": "System:",
+          "position": "after",
+          "value": "PAID     ",
+          "operator": "equal"
+        }
+      },</pre>=20
+</div>=20
+</div>
+<p class=3D"auto-cursor-target" style=3D"text-align: center;"><strong>Negat=
+ive Asserts.</strong></p>
+<p>Assert does the task or comparing values that are passed from JSON data =
+to compare with what is present on that location, with operator as not equa=
+l</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Assert at row and column</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence">{
+  "assert": {
+    "row": 22,
+    "column": 1,
+    "value": "Common",
+    "operator": "not_equal"
+  }
+}
+{
+   "assert": {
+     "label": "System1:",
+     "position": "after",
+     "value": "PAID     ",
+     "operator": "not_equal"
+   }
+},</pre>=20
+</div>=20
+</div>
+<p style=3D"text-align: center;"><strong>Asserts - Multiple Rows with Pagin=
+ation.</strong><br><br></p>
+<p class=3D"auto-cursor-target">New functionality added to JSON includes to=
+ perform multiple rows assert. This helps to do long formula validation and=
+ checks values where the data in split on screen in multiple rows.</p>
+<p>Syntax to validate, multiple rows with no scrolling logic.</p>
+<p>This will compare 3 rows with data available inside label, matching with=
+ row "1,4,15" rows on the screen.</p>
+<p class=3D"auto-cursor-target">Passing "scrollkey" automatically navigates=
+ to multiple pages and does asserting for data present on the each page.</p=
+>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Multiple Rows Assert</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence">      {
+        "assert": {
+          "label": " Imran: 08/07/17                                       =
+         System: PAID     ,            Identification:                     =
+                                ,Bulletins:              Express Scripts In=
+c.                                   ",
+          "operator": "not_equal",
+          "position": "rows",
+          "range": "1,4,15"
+        }
+      }
+
+&nbsp;{
+        "assert": {
+          "label": "_ BA FRMGNFLEX DS INCR  COPAY       CARD          2009-=
+12-17  PROD  2011-08-14,=20
+ _ BA FRMGNFLEX DS INCR  COPAY       CARD          2009-12-08  PROD  2009-1=
+2-16 ",
+          "operator": "equal",
+          "position": "rows",
+          "range": "10,11",
+          "scrollkey": "PF8"
+        }
+      }</pre>=20
+</div>=20
+</div>
+<p style=3D"text-align: center;"><strong>Select - Value by scrolling multip=
+le data set/pages.</strong><br><br></p>
+<p class=3D"auto-cursor-target">The code below does a automatic scrolling o=
+f pages, by using the key strokes (scrollkey) supplied as parameter. It tri=
+es to do assertion based on the "value" passed from JSON file/step. Assert =
+is successful when both the values (data on screen matches JSON passed data=
+).</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Assert by scrolling multiple pages.</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence">{
+  "select": {
+    "label": "208-COBCBYPP",
+    "value": "x",
+    "position": "before",
+    "scrollkey": "F12"
+  }
+}
+
+{
+  "assert": {
+    "label": "208-COBCBYPP"
+  }
+}</pre>=20
+</div>=20
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Sample Asserts</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence">      {
+        "assert": {
+          "label": "Userid1",
+          "operator": "not_equal",
+          "position": "field"
+        }
+      },
+      {
+        "assert": {
+          "label": "Userid",
+          "operator": "equal",
+          "position": "field"
+        }
+      },
+      {
+        "assert": {
+          "label": "System:",
+          "position": "after",
+          "value": "PAID     ",
+          "operator": "equal"
+        }
+      },
+      {
+        "assert": {
+          "label": "System1:",
+          "position": "after",
+          "value": "PAID     ",
+          "operator": "not_equal"
+        }
+      },
+      {
+        "assert": {
+          "label": " Date: 07/21/17                                        =
+        System: PAID     ",
+          "operator": "equal",
+          "position": "row"
+        }
+      },
+      {
+        "assert": {
+          "label": " Date: 06/21/17                                        =
+        System: PAID     ",
+          "operator": "not_equal",
+          "position": "row"
+        }
+      },
+      {
+                "assert": {
+                    "label": "BA FRMGNFLEX DS INCR      COPAY           CAR=
+D              2013-02-01      PROD      2015-01-31"
+                    "operator":"equal",
+                    "position": "row",
+                    "scrollkey": "PF8"
+                }
+          },
+      {
+        "assert": {
+          "label": " Date: 08/07/17                                        =
+        System: PAID     ,            Identification:                      =
+                               ,Bulletins:              Express Scripts Inc=
+.                                   ",
+          "operator": "equal",
+          "position": "rows",
+          "range": "1,4,15"
+        }
+      },
+      {
+        "assert": {
+          "label": " Imran: 08/07/17                                       =
+         System: PAID     ,            Identification:                     =
+                                ,Bulletins:              Express Scripts In=
+c.                                   ",
+          "operator": "not_equal",
+          "position": "rows",
+          "range": "1,4,15"
+        }
+      }
+      {
+        "assert": {
+          "label": "_ BA FRMGNFLEX DS INCR  COPAY       CARD          2009-=
+12-17  PROD  2011-08-14,=20
+ _ BA FRMGNFLEX DS INCR  COPAY       CARD          2009-12-08  PROD  2009-1=
+2-16 ",
+          "operator": "equal",
+          "position": "rows",
+          "range": "10,11",
+          "scrollkey": "PF8"
+        }
+      }</pre>=20
+</div>=20
+</div>
+    </div>
+</body>
+</html>
+------=_Part_16675_1157172645.1540845966925--

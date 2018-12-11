@@ -1,0 +1,481 @@
+Message-ID: <765148167.16698.1540845977380.JavaMail.confluence@ps2pr028231.express-scripts.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_16697_764472567.1540845977379"
+
+------=_Part_16697_764472567.1540845977379
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>JSON for Desktop Steps</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>JSON for Desktop Steps</h1>
+    <div class=3D"Section1">
+        <p class=3D"auto-cursor-target"><u><strong>Note :</strong></u></p>
+<p>There are inline functions that can be used across the json to manipulat=
+e the values. Please visit the link to know about <a href=3D"/display/QAAUT=
+/Inline+Functions">Inline functions</a></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 100=
+.0%;">
+<colgroup>
+<col style=3D"width: 11.119874%;">
+<col style=3D"width: 39.589905%;">
+<col style=3D"width: 49.290222%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Action / Keyword</th>
+<th class=3D"confluenceTh">Usage of keyword in JSON</th>
+<th class=3D"confluenceTh">Comments</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Configuration</strong></td>
+<td class=3D"confluenceTd"><p>"<strong>configuration</strong>": {<br> "scre=
+enshots": "on",<br> "desktopclient": "remote",<br> "tdmUser":"ninjahub",<br=
+> "tdmPwd":"gsEYXiT61TXJ9gRgFOUGYQ=3D=3D",<br> "encoded":true,<br> "tdmserv=
+iceurl": "<a href=3D"http://tdmservices-001.apps.ch3pcf01.express-scripts.c=
+om/daas" class=3D"external-link" rel=3D"nofollow">http://tdmservices-001.ap=
+ps.ch3pcf01.express-scripts.com/daas</a>"</p><p>}</p></td>
+<td class=3D"confluenceTd"><p>desktop configuration setup</p><p><u><strong>=
+Possible Values:</strong></u></p><p>screenshots : on/off</p><p>tdm config d=
+etails are not mandatory and are required only to make TDM calls.</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>launch</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>"<strong>launch</strong>":{ <br=
+> "applicationpath":"C:\\Program Files (x86)\\DCRS\\DCRSLogin.exe"<br> }</p=
+></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>application launch step</p><p><=
+u><strong>Possible Values:</strong></u></p><p>applicationpath : [path to ap=
+plication]</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>applicationclose</strong><=
+/td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>"<strong>applicationclose</s=
+trong></span><span>":{ </span><br><span> "Close":"yes"</span><br><span> }</=
+span></td>
+<td colspan=3D"1" class=3D"confluenceTd">To close all open windows of the l=
+aunched application.</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>click</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>"<strong>click</strong>":{<br> =
+"selectBy":"name",<br> "elementID":"File"<br> }</p><p><br> "<strong>click</=
+strong>":{<br> "selectBy":"image",<br> "elementID":"resources/DCRS/DCRSRRAN=
+extButton.PNG"<br> }</p><p>"<strong>click</strong>": {<br> "selectBy": "tab=
+leimage",<br> "elementID": "resources/DCRS/DCRSSMINDITCO.PNG",<br> "rows": =
+6,<br> "columns": 1,<br> "selectrow": 4,<br> "selectcol": 0<br> }</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>To click on an element. By defa=
+ult the click will be a single click on the element.</p><p><u><strong>Possi=
+ble Values:</strong></u></p><p><span style=3D"line-height: 1.4285715;">sele=
+ctBy : </span>[location strategy if element can be identifiable through UIs=
+py] / image[To click on the image]<span><span> / tableimage</span></span></=
+p><p><span>elementID : [value of the location strategy / path to the saved =
+image]</span></p><p>doubleclick : yes [To double click on an element based =
+on any of the above strategies.(Not mandatory)]</p><p>rightclick : yes [rig=
+ht click on the element (Not Mandatory)]</p><p>direction : yes [This can be=
+ used only with image strategy to click on the center of the image]</p><p><=
+span>For </span><strong>tableimage</strong><span>, the image can be divided=
+ to equal </span><strong>rows</strong><span> &amp; </span><strong>columns</=
+strong><span> as table and select each cell based on the </span><strong>sel=
+ectrow</strong><span> &amp; </span><strong>selectcol</strong><span>. the cl=
+ick action will happen on the selected cell.</span></p><p><br></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>draganddrop</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>"<strong>draganddrop</strong>":=
+ {<br> "selectBy": "image",<br> "srcelementId": "resources/DCRS/DCRSPlanExc=
+eptionRulesChemicalRightGridSelect.PNG",<br> "targetelementId": "resources/=
+DCRS/DCRSPlanExceptionRulesNewTestRuleElement.PNG"<br> }</p><p>"<strong>dra=
+ganddrop</strong>": {<br> "selectBy": "name/id",<br> "srcelementId": "table=
+1name/id",<br> "targetelementId": "table2name/id",<br> "srcrow" : "0",<br> =
+"srccol" : "1",<br> "targetrow" : "0",<br> "targetcol" : "1"<br> }</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>drag and drop from one table ce=
+ll to another table cell</p><p>selectBy : [location strategy if element can=
+ be identifiable through UIspy] / image</p><p>srcelementId : <span style=3D=
+"line-height: 1.4285715;">[value of the location strategy / path to the sav=
+ed image] to drag from</span></p><p>targetelementId : <span style=3D"line-h=
+eight: 1.4285715;">[value of the location strategy / path to the saved imag=
+e] to drop here</span></p><p>the row and col for src and target should be p=
+assed to drag and drop only if the <strong><span style=3D"line-height: 1.42=
+85715;">selectBy is not image</span></strong></p><p><span style=3D"line-hei=
+ght: 1.4285715;">the second sample shown in the json drags the cell(0,1) of=
+ table1 and drops to cell(0, 1) of table2.</span></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>clear</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>"<strong>clear</strong>":{<br> =
+"selectBy":"name",<br> "elementID":"File"<br> }</p><p><br> "<strong>clear</=
+strong>":{<br> "selectBy":"image",<br> "elementID":"resources/DCRS/DCRSRRAN=
+extButton.PNG"<br> }</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>To clear the text on an element=
+ that can be editable</p><p><u><strong>Possible Values:</strong></u></p><p>=
+<span style=3D"line-height: 1.4285715;">selectBy : </span>[location strateg=
+y if element can be identifiable through UIspy] / image[To clear text of th=
+e editable element identified through the image]</p><p>elementID : [value o=
+f the location strategy / path to the saved image]</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>input</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>"<strong>input</strong>": {<br>=
+ "selectBy": "id",<br> "elementID": "txtUserId",<br> "value": "e39934"<br> =
+}<br>"<strong>input</strong>": {<br> "selectBy": "image",<br> "elementID": =
+"resources/DCRS/DCRSNewExceptionRule.PNG",<br> "value": "Test Rule", <br><s=
+pan style=3D"color: rgb(255,0,0);"> "click" : "No"</span><br> }<br>"<strong=
+>input</strong>": {<br> "selectBy": "tableimage",<br> "elementID": "resourc=
+es/DCRS/DCRSTempCvgTable1.PNG",<br> "rows" : 5,<br> "columns" : 2,<br> "sel=
+ectrow" : 1,<br> "selectcol" : 0,<br> "value": "20",<br> <span style=3D"col=
+or: rgb(255,0,0);">"click" : "No"</span><br> }</p><p><br></p><p><br></p></t=
+d>
+<td colspan=3D"1" class=3D"confluenceTd"><p style=3D"margin-top: 10.0px;"><=
+u><strong>Possible Values:</strong></u></p><p><span style=3D"line-height: 1=
+.4285715;">selectBy : </span>[location strategy if element can be identifia=
+ble through UIspy] / image / tableimage</p><p>elementID : [value of the loc=
+ation strategy / path to the saved image]</p><p>value : Any text to be writ=
+ten to the editable element identified though any of the above 3 strategies=
+.</p><p>For <strong>tableimage</strong>, the image can be divided to equal =
+<strong>rows</strong> &amp; <strong>columns</strong> as table and select ea=
+ch cell based on the <strong>selectrow</strong> &amp; <strong>selectcol</st=
+rong>. the selected cell based on these, will be written with the provided =
+text as <strong>value</strong>(please make sure that the selected cell is e=
+ditable).</p><p><br></p><p><span style=3D"color: rgb(0,0,0);line-height: 1.=
+4285715;">the default action is always click &amp; enter text. </span><span=
+ style=3D"line-height: 1.4285715;">Use </span><span style=3D"color: rgb(255=
+,0,0);line-height: 1.4285715;">"click" : "No" <span style=3D"color: rgb(0,0=
+,0);">only when there is not need of a click action before entering the tex=
+t. This</span> <span style=3D"color: rgb(0,0,0);">is applicable only for im=
+age &amp; tableimage and it is not mandatory to pass. </span></span></p></t=
+d>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>scroll</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>"<strong>scroll</strong>": {<br=
+> "selectBy": "image",<br> "elementID" : "resources/DCRS/DCRS_Scroll_Down_A=
+rrow.PNG",<br> "scrolldirection" : "down",<br> "scrollsteps" : "3"<br> }</p=
+></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Moving scrollbar in all directi=
+ons based on the scrollbar image in terms of steps. Usually each step is eq=
+ual to clicking the scrollarrow 3 times.</p><p><span style=3D"line-height: =
+1.4285715;">selectBy : </span>image</p><p>elementID : path to the saved ima=
+ge</p><p>scrolldirection : down / up / right / left</p><p>scrollsteps : [nu=
+mber of steps to scroll in the above direction]</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>getValue</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>"<strong>getValue</strong>":{<b=
+r> "selectBy":"name",<br> "elementID":"Item Nbr Row 0",<br> "attributeName"=
+:"text",<br> "value":"selectedRow"<br> }<br> <br>"<strong>getValue</strong>=
+": {<br> <span style=3D"color: rgb(255,0,0);">"highLightInSecs" : "3",</spa=
+n><br> "selectBy": "dynamicSelect",<br> "regionSelectors": [ {<br> "selectB=
+y": "image",<br> "elementID": "resources/DCRS/DrugListID.PNG",<br> "directi=
+on" : "below"<br> },<br> {<br> "selectBy": "image",<br> "elementID": "resou=
+rces/DCRS/DrugListName.PNG",<br> "direction" : "above"<br> } ],<br> "value"=
+ : "DrugListName" <br>}</p><p><br></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>The getValue can be used to sto=
+re a value identified into a variable and the variable can be reused in the=
+ same json using the syntax as : <strong><span style=3D"color: rgb(255,0,0)=
+;">{<span style=3D"line-height: 1.4285715;">selectedRow</span></span></stro=
+ng><span style=3D"line-height: 1.4285715;"><strong><span style=3D"color: rg=
+b(255,0,0);">}</span></strong>, <strong><span style=3D"color: rgb(255,0,0);=
+">{</span></strong></span><strong><span style=3D"line-height: 1.4285715;col=
+or: rgb(255,0,0);">DrugListName}</span></strong></p><p><span style=3D"line-=
+height: 1.4285715;">selectBy : </span>[location strategy if element can be =
+identifiable through UIspy] / dynamicSelect</p><p>The first json example co=
+uld be used when an element is identifiable through UISpy. The <strong styl=
+e=3D"line-height: 1.4285715;">attributeName</strong><span style=3D"line-hei=
+ght: 1.4285715;"> is used to fetch that </span>particular attribute attache=
+d to the element that we choose based on the <strong>selectBy</strong> and =
+<strong>elementID<span style=3D"line-height: 1.4285715;"> </span></strong><=
+/p><p>attributeName : text / Value / Name (UIspy shows these attributes for=
+ each element)</p><p><span style=3D"line-height: 1.4285715;">The second exa=
+mple is to dynamically select an image on the screen with reference to the =
+static images, convert it to text and store it as a variable.(in this e.g,&=
+nbsp;</span><span style=3D"line-height: 1.4285715;">DrugListName</span><spa=
+n style=3D"line-height: 1.4285715;">)</span></p><p>regionSelectors : accept=
+s an array of images with direction to crop the current screen image or the=
+ resulting image of the last selection.</p><p>The image crop will be done i=
+n the given direction until the end of the image with a fixed width of the =
+<strong>elementID </strong>image.</p><p>direction : below / above / right /=
+ left</p><p><span style=3D"color: rgb(0,0,0);">highLightInSecs : highlight =
+the result of each selection for the given number of seconds. This is not m=
+andatory and provided to use only for troubleshooting purpose.</span></p><p=
+><span style=3D"line-height: 1.4285715;"><br></span></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>assert</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>"<strong>assert</strong>": {<br=
+> "selectBy": "id",<br> "elementID": "16",<br> "value" : "WIP",<br> "attrib=
+uteName" : "Name"<br> }<br> <br>"<strong>assert</strong>": {<br> "selectBy"=
+: "image",<br> "elementID": "resources/DCRS/DCRSCreatorNameAssert.PNG",<br>=
+ "value": "%BHANU%"<br> }<br> <br>"<strong>assert</strong>": { <br>"selectB=
+y": "image",<br> "elementID": "resources/DCRS/DCRSCopyToFMDisabled.PNG"<br>=
+ }<br> <br>"<strong>assert</strong>": { <br>"selectBy": "dynamicSelect",<br=
+> "regionSelectors": [ { <br> "selectBy": "image",<br> "elementID": "resour=
+ces/DCRS/creater_owner_name.PNG",<br> "direction" : "below"<br> },<br> { <b=
+r> "selectBy": "image",<br> "elementID": "resources/DCRS/last_modified_user=
+.PNG",<br> "direction" : "above"<br> } ],<br> "value" : "%BHANU%"<br> }</p>=
+<p><br></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>The assert keyword can be used =
+in different ways depending upon the test scenarios.</p><p>The first e.g is=
+ a simple assert based on the element location strategy by locating the ele=
+ments with the help of UISpy.</p><p>The application will get the actualValu=
+e based on the <span style=3D"line-height: 1.4285715;"><strong>selectBy</st=
+rong>, </span><span style=3D"line-height: 1.4285715;"><strong>elementID</st=
+rong>, </span><strong style=3D"line-height: 1.4285715;">attributeName</stro=
+ng><span style=3D"line-height: 1.4285715;"> and then compares it with the e=
+xpectedValue given in the </span><strong style=3D"line-height: 1.4285715;">=
+value</strong><span style=3D"line-height: 1.4285715;">. The </span>comparis=
+on<span style=3D"line-height: 1.4285715;"> is an exact match. The like matc=
+h can be done by adding % symbol on the <strong>value</strong>.</span></p><=
+p><span style=3D"line-height: 1.4285715;">The second e.g will take the imag=
+e(elementID), converts it to a text and matches it with the expectedValue, =
+<strong>value</strong>.the exact match or like match is based on the presen=
+ce of % symbol.</span></p><p><span style=3D"line-height: 1.4285715;">The th=
+ird e.g will take the image and searches it on the current screen. This is =
+usually useful to assert the disabled buttons/links.</span></p><p><span sty=
+le=3D"line-height: 1.4285715;">The fourth e.g shows the usage of getting th=
+e actualValue based on the dynamicSelect and matched with the expectedValue=
+, <strong>value</strong>. Please read <strong>getValue</strong> keyword for=
+ dynamicSelect.</span></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>wait</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd">"<strong>wait</strong>": { "timeIn=
+Millis": "3" }</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>This step is used to wait betwe=
+en steps.</p><p>timeInMillis : <span style=3D"line-height: 1.4285715;">Numb=
+er of <span style=3D"color: rgb(255,0,0);"><strong>seconds</strong> </span>=
+to wait between steps.</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><br></p>
+<p>srcrow</p>
+    </div>
+</body>
+</html>
+------=_Part_16697_764472567.1540845977379--

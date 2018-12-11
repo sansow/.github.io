@@ -1,0 +1,360 @@
+Message-ID: <294999572.16875.1540846293984.JavaMail.confluence@ps2pr028231.express-scripts.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_16874_1605868219.1540846293984"
+
+------=_Part_16874_1605868219.1540846293984
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Templates - Reusable JSON Samples</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Templates - Reusable JSON Samples</h1>
+    <div class=3D"Section1">
+        <p>How to Connect to two database and query results and assert on i=
+t.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Connection to two database</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Eclipse; collapse: true" data-theme=3D"Eclips=
+e">{
+  "testCase": {
+    "name": "H643 Service",
+    "curator": "ec8038",
+    "configuration": {
+      "screenshots": "on",
+      "host": "mcfl1g05.medco.com",
+      "port": "23",
+      "browser": "chrome",
+      "RESTEndPoints": [
+        {
+          "configName": "Rest",
+          "serviceName": "H643",
+          "serviceURL": "http://pbmcicsqa.medco.com/cics/H643/soarlst",
+          "operationName": "H643",
+          "method": "POST",
+          "username": "QRXS02",
+          "password": "",
+          "contentType": "text/xml"
+        }
+      ],
+      "dbEndPoints": [
+        {
+          "configName": "db2",
+          "serverName": "DB2CONNA",
+          "dbType": "db2",
+          "host": "DB2CONNA.medco.com",
+          "port": "50000",
+          "database": "DB2E",
+          "schema": "DB0QPOL0",
+          "user": "",
+          "password": "",
+          "encoded": false
+        },
+        {
+          "configName": "DB0QNRX0",
+          "serverName": "DB0QNRX0",
+          "dbType": "db2",
+          "host": "DB2CONNA.medco.com",
+          "port": "50000",
+          "database": "DB2B",
+          "schema": "DB0QNRX0",
+          "user": "",
+          "password": "",
+          "encoded": false
+        }
+      ]
+    },
+    "testSteps": [
+      {
+        "input": {
+          "configName": "Rest",
+          "serviceName": "H643",
+          "inputValue": "&lt;Request&gt;&lt;ReqTestMode&gt;N&lt;/ReqTestMod=
+e&gt;&lt;ReqRequestType&gt;R&lt;/ReqRequestType&gt;&lt;ReqChannel&gt;CGW&lt=
+;/ReqChannel&gt;&lt;ReqUserId&gt;EE6312&lt;/ReqUserId&gt;&lt;ReqMembershipI=
+d&gt;034986385226&lt;/ReqMembershipId&gt;&lt;ReqMailGroup&gt;PD1&lt;/ReqMai=
+lGroup&gt;&lt;ReqMailSubGroup&gt;L4TA&lt;/ReqMailSubGroup&gt;&lt;ReqGroupID=
+&gt;2XS000002479527&lt;/ReqGroupID&gt;&lt;ReqCarrierId&gt;L4TA&lt;/ReqCarri=
+erId&gt;&lt;ReqPersonNumber&gt;01&lt;/ReqPersonNumber&gt;&lt;ReqBenefitGrou=
+p&gt;2XS000002479527&lt;/ReqBenefitGroup&gt;&lt;ReqDOB&gt;19700101&lt;/ReqD=
+OB&gt;&lt;ReqPatientAgn&gt;0562923329&lt;/ReqPatientAgn&gt;&lt;ReqValidated=
+AgnInd&gt;Y&lt;/ReqValidatedAgnInd&gt;&lt;ReqRelationshipCode&gt;1&lt;/ReqR=
+elationshipCode&gt;&lt;ReqMaxResults&gt;15&lt;/ReqMaxResults&gt;&lt;ReqFilt=
+erType&gt;ORE&lt;/ReqFilterType&gt;&lt;/Request&gt;",
+          "responseName": "getClientSetupResponse"
+        }
+      },
+      {
+        "assert": {
+          "value": "0000",
+          "actualValue": "${getClientSetupResponse.Response.ResStatusCode}"
+        }
+      },
+      {
+        "dataOperation": {
+          "configName": "db2",
+          "serverName": "DB2CONNA",
+          "query": "SELECT ALIAS_TXT, PF_PSWD_HINT_TXT FROM DB0QPOL0.POLEIR=
+00 WHERE PF_USR_MSHP_NBR =3D'390871613898' AND PF_RELSHP_CDE=3D'1'",
+          "result": "dbresponse"
+        }
+      },
+      {
+        "dataOperation": {
+          "configName": "DB0QNRX0",
+          "serverName": "DB0QNRX0",
+          "query": "SELECT NRXRXS_DRNO FROM DB0QNRX0.NRXRXS00 WHERE NRXRXS_=
+RXNO =3D'1728300136'",
+          "result": "dbrespon12e"
+        }
+      },
+      {
+        "assert": {
+          "actualValue": "${dbresponse.result[0].ALIAS_TXT}",
+          "value": "390871613898mb@test.com"
+        }
+      },
+      {
+        "assert": {
+          "actualValue": "${dbrespon12e.result[0].NRXRXS_DRNO}",
+          "value": "59026"
+        }
+      }
+    ]
+  }
+}</pre>=20
+</div>=20
+</div>
+    </div>
+</body>
+</html>
+------=_Part_16874_1605868219.1540846293984--

@@ -1,0 +1,945 @@
+Message-ID: <727034164.16639.1540845953956.JavaMail.confluence@ps2pr028231.express-scripts.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_16638_529963855.1540845953956"
+
+------=_Part_16638_529963855.1540845953956
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>JSON for webSteps(intial Draft)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>JSON for webSteps(intial Draft)</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 95.=
+2%;">
+<colgroup>
+<col style=3D"width: 13.74%;">
+<col style=3D"width: 31.33%;">
+<col style=3D"width: 54.93%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Action</th>
+<th class=3D"confluenceTh">JSON</th>
+<th class=3D"confluenceTh">Comments</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>navigate</strong></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p class=3D"auto-cursor-target">{"navigate": {</p>
+<p class=3D"auto-cursor-target">"url" : "xxx"</p>
+<p class=3D"auto-cursor-target">}}</p>
+</div></td>
+<td class=3D"confluenceTd"><p>This will open the desired Url passed as a pa=
+rameter&nbsp;</p><p>EZ: Should we combine launch and navigate as one step?<=
+/p><p>Sharath: We have combined Launch &amp; Navigate in Navigate itself.</=
+p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>assert </strong></p><p>&nbsp;&nbsp;</=
+p></td>
+<td class=3D"confluenceTd"><p>{"assert" :{</p><p>"alert":"yes",</p><p>"sele=
+ctBy":"id",</p><p>"elementID" :"workmix1",</p><p>"value":"xxxxxxxx",</p><p>=
+"type":"datetime",</p><p>"format":"yyyy-MM-dd HH:mm:ss.S",</p><p>"list": fa=
+lse,</p><p>"selected": true</p><p>"range":"0,10",</p><pre>"disabled": "YES"=
+,</pre><p>"option" : "&lt;valid values&gt;",</p><p>"window" : "yes",</p><p>=
+"exactMatch" : "true"</p><p>}</p><p><strong>Color Coded cells:</strong></p>=
+<p>&nbsp;&nbsp;&nbsp; "assert": {</p><p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nb=
+sp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"selectBy": "xp=
+ath",</p><p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;=
+&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"elementID": "//*[@class=3D'changed']",</p>=
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &n=
+bsp;&nbsp;&nbsp; &nbsp;"value": "&lt;expected value&gt;"</p><p>&nbsp;&nbsp;=
+ &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;}</p><p>&nb=
+sp;&nbsp; &nbsp;&nbsp;}</p><p><strong>Web Element Assertion:</strong></p><p=
+><span>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</span>"assert": {=
+<br> <span>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</span><span>&=
+nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</span>"selectBy": "xpath"=
+,<br> <span>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</span><span>=
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</span>"elementID":"//*[@=
+name=3D'holdPayments']",<br> <span>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &n=
+bsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</=
+span>"<strong>option</strong>": "&lt;valid values&gt;"<br><span>&nbsp;&nbsp=
+;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</span>}</p><p><strong>Web Table Ass=
+ertion:</strong></p><p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong> "ass=
+ert": { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",&nbsp;&nbsp;&nbsp=
+;&nbsp;</p><p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;"elementID": "//*[@id=3D'conte=
+nt']/div/div[3]/div[2]/div[2]/div/div/table",&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+</p><p>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;"value": "$dbresponse[].result[].RPT_=
+ACCT_NAME",&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp; &n=
+bsp;"webTable": true,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>&nbsp;&nbsp;&nbsp=
+;&nbsp; &nbsp;"column": 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>&nbsp;&nbsp; }</p><p><br></p><p><s=
+trong>Row Count :</strong></p><p>"assert": {<br>"selectBy": "xpath",<br>"el=
+ementID": "//table[@id=3D'_aorAgingnReportTable']/tbody/tr",<br> <strong>"r=
+owCount" : "yes",</strong><br>"value": "${rowCount}"<br>}</p></td>
+<td class=3D"confluenceTd"><p>Part of assertions story</p><p>This will asse=
+rt the value against the webelement</p><p><strong>selectBy</strong> support=
+ following xpath, id, name, css, link</p><p>Alert messages can be validated=
+ by using keywords as</p><p><strong>"alert":"yes"</strong> this is optional=
+ can used only when validating the pop-up messages</p><p><strong>"type" : <=
+/strong>this is optional introduced to accommodate asserting dynamic dates.=
+ When not passed defaults to "datetime".</p><p><strong>"format": </strong>t=
+his is optional and this indicates the format of the actual value to be ass=
+erted. When not passed it validates with the below&nbsp;formats</p><p>"MM/d=
+d/yyyy", "MM.dd.yyyy", "MM-dd-yyyy", "yyyy/MM/dd", "yy/MM/dd", "yyyy.MM.dd"=
+, "dd/MM/yyyy", "dd.MM.yyyy", "dd-MM-yyyy", "yyyy-MM-dd HH:mm:ss.S", "yyyy-=
+MM-dd", "yy-MM-dd".</p><p><strong>"list" :&nbsp; </strong>Boolean value int=
+roduced to assert drop down list values with any other list (Ex: web step d=
+rop down values compared to DB response list). To compare as list this has =
+to be set to true.</p><p><strong>"selected" :</strong> Boolean value introd=
+uced to assert only selected value from list of values from the drop down o=
+f all the elements with Xpath with DB response list.</p><pre>"disabled": th=
+is is option can used if we need to validate web field is disabled or not</=
+pre><p><strong>"range"</strong> : Range indicates the start index and end i=
+ndex of the drop down values to be compared with DB separated by comma. It =
+starts with 0 if we&nbsp;want to omit the&nbsp;drop down value Ex: "Select =
+One" we can set the start index to 1 so that it will omit the first value (=
+i.e.) "Select One" from the drop down and compare the rest with DB.&nbsp;</=
+p><p><strong>Identify colored cells in a web page</strong>: Use the css cla=
+ss of a particular color as the element ID value. The value of the colored =
+cell is hard coded as the expected value.</p><p><strong>"option" </strong>:=
+ Validate if a web element (like <span>checkbox, text box, text area, list =
+box, radio button etc</span>) is checked, unchecked, enabled, disabled, hid=
+den, not displayed&nbsp;or any valid combination.&nbsp;<span>&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<=
+/span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><sp=
+an>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p><p><strong>valid =
+values:</strong> "enabled and checked", "enabled and unchecked", "disabled =
+and checked", "disabled and unchecked", "enabled", "disabled", "checked", "=
+unchecked", "hidden" for hidden elements and "notDisplayed" for elements th=
+at are not displayed.&nbsp;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>=
+<p><strong>invalid values: </strong>"enabled and disabled", "checked and un=
+checked" or any invalid combination.</p><p>If we want to assert in a child =
+window, we use keyword as</p><p><strong>"window":"yes"</strong></p><p>After=
+ closing the child window, use the following keyword to assert in the paren=
+t window:</p><p><strong>"window":"no"</strong></p><p><span><strong>"exactMa=
+tch" : "true"</strong></span></p><p>Use this keyword to perform an exact ma=
+tch between the expected and actual values in an assert step.</p><p>Without=
+ the keyword, the existing behavior is retained.</p><p><strong>"elementID":=
+ </strong>For webtable assert the element Id should represent complete tabl=
+e (not just thead/tbody).</p><p><strong>"webTable": </strong>It is used to =
+assert the webtable with the DBtable. when you give webTable as true along =
+with "column", it&nbsp;indicates that framewok has to assert the&nbsp;webta=
+ble&nbsp;with the DBtable.</p><p><strong>"column": </strong>If you want to =
+do assert on a particular column, we can make use of column attribute by pr=
+oviding the column number on which column you want perform assert.</p><p><s=
+trong>"rowCount": </strong>Check the number of rows in a table and assert i=
+t against an expected row count value.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>click</strong></p></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>{"click":{</p>
+<p>"window":"yes",</p>
+<p>"selectBy":"id",</p>
+<p>"elementID" :"workmix1"</p>
+<p>}},</p>
+<p><br></p>
+<p>Mouse Hover:</p>
+<p>{</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "click": {</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "mouseHover": "yes",</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "selectBy": "id",</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "elementID": "div_0,div_0_0"</p>
+<p>}</p>
+<p>}</p>
+<p><br></p>
+<p>Page Navigation(back, refresh and forward):</p>
+<p>{</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "click": {</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "page": "back"</p>
+<p>}</p>
+<p>}</p>
+<p><br></p>
+<p>JavaScript Highlighter</p>
+<div class=3D"WordSection1">
+<p>{ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;"click": {&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</div>
+<p>&nbsp;"frame":"//*[@id=3D'servletBridgeIframe']",&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;"selectBy": "xpath",&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;"elementID": "//a[@title=3D'Documents']",&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp; "highlight":false &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp; } &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;</p>
+<p>&nbsp;},</p>
+</div></td>
+<td class=3D"confluenceTd"><p>This is used to do normal click operation on =
+the webpage</p><p>If we want to click on a object in a child window then we=
+ use keyword as</p><p><strong>"window":"yes"</strong></p><p>After closing t=
+he child window, use the following keyword to click a web element in the pa=
+rent window:</p><p><strong>"window":"no"</strong></p><p>For, Doubleclick on=
+ a object,</p><p><strong>"doubleClick":"yes"</strong></p><p>For Mouse Hover=
+ functionality</p><p>Multiple =E2=80=98element ids=E2=80=99 has to be passe=
+d from json to handle mouse hover.("div_0,div_0_0")</p><p><br></p><p>For Pa=
+ge Navigation, specify a value for <strong>page</strong>. "back", "refresh"=
+ or "forward". Do not use <strong>page</strong> inside any other click acti=
+ons.</p><p><br></p><p><strong>JavaScript Highlighter</strong>:</p><p>Someti=
+mes because of this javascript highlighter the style of the element is chan=
+ging and causing</p><p>disabling of the particular element. By making&nbsp;=
+"highlight" to false , we can overcome this by not running</p><p>this javas=
+cript highlighter.&nbsp;</p><p><br></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>input </strong></p><p><br></p></td>
+<td class=3D"confluenceTd"><p>{"input" : {</p><p>"frame" :"frame2",</p><p>"=
+selectBy":"id",</p><p>"elementID":"racfid",</p><p>"value":"c75qa3"</p><p>}}=
+</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;This is used as sendkey to write data o=
+n the webpage&nbsp;</p><p>If we want to switch frame for input on object th=
+en we use attribute</p><p><strong>"frame":"frameName"</strong></p><p>If we =
+want to input value in a child window then we use keyword as</p><p><strong>=
+"window":"yes"</strong></p><p>After closing the child window, use the follo=
+wing keyword to input a value in the parent window:</p><p><strong>"window":=
+"no"</strong></p><p>When the input is of type file upload please provide th=
+e value filed with the path of the file in git as below</p><p>&nbsp;"value"=
+ :"PLB/upload/Valid PLBBulkUploadTemplate.xlsm"</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>clear</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>{"clear" : {</p><p>"frame" :"fr=
+ame2",</p><p>"selectBy":"id",</p><p>"elementID":"racfid",</p><p>"value":"c7=
+5qa3"</p><p>}}</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>This is used as clear to clear =
+data on the enabled text input&nbsp;elements</p><p>If we want to switch fra=
+me for input on object then we use attribute</p><p><strong>"frame":"frameNa=
+me"</strong></p><p>If we want to input value in a child window then we use =
+keyword as</p><p><strong>"window":"yes"</strong></p><p>After closing the ch=
+ild window, use the following keyword to input a value in the parent window=
+:</p><p><strong>"window":"no"</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>select </strong></p><p><br></p></td>
+<td class=3D"confluenceTd"><p>{"select":{</p><p>"selectBy":"xpath",</p><p>"=
+elementID":"//*[@id=3D'rolesField']",</p><p>"value":"DC Reviewer"</p><p>}}<=
+/p></td>
+<td class=3D"confluenceTd"><p>&nbsp;&nbsp;This is used to select an item fr=
+om the list</p><p>If we want to switch frame to select from the list object=
+ then we use attribute</p><p><strong>"frame":"frameName"</strong></p><p>If =
+we want to select item from the list in a child window then we use keyword =
+as</p><p><strong>"window":"yes"</strong></p><p>After closing the child wind=
+ow, use the following keyword to select a value from a list box in the pare=
+nt window:</p><p><strong>"window":"no"</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>alert </strong></td>
+<td class=3D"confluenceTd"><p align=3D"LEFT">{"alert": {</p><p align=3D"LEF=
+T">"<u>action</u>":"<u>OK</u>"</p><p>}</p><p align=3D"LEFT">{"alert": {</p>=
+<p align=3D"LEFT">"<u>action</u>":"<u>enter</u>",</p><p align=3D"LEFT">"val=
+ue":"Some Value"</p><p>}</p></td>
+<td class=3D"confluenceTd"><p>This will support three types "OK", "Cancel"<=
+/p><p><br></p><p>if we have to pass any value to the web dialog box, then w=
+e use "Enter", along with value.</p><p><br></p><p><br></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>browserclose</strong>&nbsp=
+;</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>&nbsp;{"browserclose" :{"close"=
+:"true"}}</p><p><span>{"browserclose" :{"closeAll":"true"}}</span></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p><strong>close</strong> : This i=
+s used to close the current window and switch to other window (if only one =
+window is opened it will close all)</p><p><strong>closeAll : </strong>This =
+is used to close all the windows opened.</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>&nbsp;$ref</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;=
+ "$ref":</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;{</p>=
+<p>&nbsp;"label":"src/main/resources/fixtures/jagacy/data/webTestCommonFile=
+One.json", &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "operator=
+": "git",</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;"key=
+name": "ec7352", &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;"value" : "DRV6z5p/y8yxGX9y9DYCSA=3D=3D",=
+ &nbsp;&nbsp;&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp; &nbsp;"encoded": true &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }&nb=
+sp; }</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>&nbsp;$ref is used to reference=
+ the common steps&nbsp; from a Json file in&nbsp;github.</p><p>By using $re=
+f we can avoid re-writing&nbsp;repetitive steps in all the Json's.</p><p><b=
+r></p><p><br></p><p><br></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>getvalue</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>{</p><p>&nbsp; "getValue": {</p=
+><p>&nbsp;&nbsp;&nbsp; "selectBy": "xpath",</p><p>&nbsp;&nbsp;&nbsp; "eleme=
+ntID": "html/body/table/tbody/tr/td[1]",</p><p>&nbsp;&nbsp;&nbsp; "value": =
+"test_code"</p><p>&nbsp;&nbsp;&nbsp; "list":true,</p><p>"prefixToBeRemoved"=
+:"Rule ID : ",<br>"suffixToBeRemoved":" : ",<br>"numericOnly":false</p><p>&=
+nbsp; }</p><p>}</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>&nbsp;If the list is true, it w=
+ill read the all options from dropdown and add those into a Array or list.<=
+/p><p>prefixToBeRemoved: This is optional and should be used when you want =
+to remove some leading string from the selected value.</p><p>suffixToBeRemo=
+ved: <span>This is optional and should be used when you want to remove some=
+ trailing string from the selected value.</span></p><p><span>numbericOnly: =
+By default is false, and should be used when you want to remove $ or , from=
+ the selected value. We can further add more characters to this.</span></p>=
+</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>fileDownloadAndValidate</s=
+trong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>{</p><p>"fileDownloadAndValidat=
+e":{</p><p>&nbsp;&nbsp;&nbsp; "selectBy":&nbsp; "xpath",</p><p>&nbsp;&nbsp;=
+&nbsp;&nbsp; "elementID":&nbsp; "//*[@id=3D'rolesField']"</p><p>&nbsp;&nbsp=
+;&nbsp; "urlToFile":&nbsp; "http://someurl.com",</p><p>&nbsp;&nbsp;&nbsp;&n=
+bsp; "columnsToValidate":&nbsp; "{ColumName1, $sum{ColumnName2},&nbsp;Colum=
+nName3, $columnMap{db column Name, excel Sheet column Name} }" or {all} or =
+empty.</p><p>&nbsp;&nbsp;&nbsp; "dbResponse":&nbsp; "${dbresponse}",</p><p>=
+}</p><p>}</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Download and Validate the file =
+from application with the dbQuery Response</p><p>SelectBy and ElementID are=
+ the values for the export button which upon clicked downloads a file.</p><=
+p>urlToFile: If the file needs to be downloaded from application export but=
+ton,user have to provide url to that export button</p><p>dbResponse: respon=
+se from the dbQuery</p><p>columnsToValidate: provide list of column names t=
+o validate, can also validate the sum of all values in the cloumn by using =
+<strong>Sum</strong> in-front of the columnname. Specify <strong>ALL</stron=
+g> if all columns should be validated Or <strong>Do not Specify</strong> th=
+is column user wants to check if file downloaded is successful. <strong>col=
+umn Map</strong> will be used to map db column name with excel sheet header=
+ name in case the column names are large enough and suitable for using alia=
+s in db Query, need to pass db column name and excel sheet header name.</p>=
+</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>processKey</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>{</p><p>&nbsp; "processKey": {<=
+/p><p>&nbsp;&nbsp;&nbsp; "keyName": "PAGE_DOWN",</p><p>&nbsp;&nbsp;&nbsp; "=
+count": 2</p><p>&nbsp; }</p><p>}</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Process Key strokes like PAGE_U=
+P, PAGE_DOWN, LEFT_ARROW, RIGHT_ARROW etc</p><p>Count is optional and must =
+be integer.</p><p>keyName can be a combination of key strokes (short-cuts) =
+for example: ALT+S or CONTROL+T</p><p><br></p>Note: If webpage has frames, =
+frame switching has to be done before this step</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong><span style=3D"color: rgb(=
+3,47,98);">cleanUpSteps</span></strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>"cleanUpSteps" : [<br>{<br>"cli=
+ck": {<br>"selectBy": "xpath",<br>"elementID": "//*[contains(text(),'Sign o=
+ut')]"<br>}<br>},<br>{<br>"browserclose": {<br>"Close": "true"<br>}<br>}<br=
+>]</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>The sample JSON is for CGS.</p>=
+<p><span>Modify the clean up steps based on the xpath of the specific appli=
+cation. </span></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;<strong>persistscreenshots</=
+strong></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>&nbsp;"browsersetup":</p><p>&nb=
+sp;{</p><p>&nbsp;&nbsp;"platform": "saucelabs", &nbsp;</p><p>"browsername":=
+ "chrome", &nbsp;</p><p>"browserversion": "58",</p><p>&nbsp;"os": "Windows =
+7", &nbsp;</p><p>"persistscreenshots": true</p><p>},</p></td>
+<td colspan=3D"1" class=3D"confluenceTd">To persist the screenshots of web =
+test cases running in sauce lab so that the screenshots are available even =
+after 30 days (It will not be available in Sauce).&nbsp;&nbsp;"persistscree=
+nshots" : true, &nbsp;saves the screenshots from sauce and make those avail=
+able.</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;domExtract</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>&nbsp;{<br>&nbsp;&nbsp;&nbsp;&n=
+bsp;"domExtract": {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",<b=
+r>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//div[@class=3D'_contentArea =
+_selected']//div[@class=3D'section _section']",<br>&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;"filter": {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"label": "NO,Expir=
+ation Date",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"a": "*",<br>&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;"td": "-",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;"dt": "*",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"th": "*",<br>&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;"dd": "M59"</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}=
+,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "domset2"<br>&nbsp;&nbsp;&nbsp;=
+&nbsp;}<br>&nbsp;&nbsp;&nbsp;},</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>By using domExtract step we can=
+ extract the content of the form and populate the data into session.</p><p>=
+elementID :&nbsp; need to give the base path of the form.</p><p>filter: To =
+filter any specific html tag value.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ex=
+: label": "NO" =E2=86=92&nbsp;It will filter only the label tag which has v=
+alue "NO" and remaining label values will be picked.</p><p>&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp; ex: label": "*" =E2=86=92 it will filter all the label tags =
+in the form.</p><p><br></p><p>value : result will be populated into&nbsp;se=
+ssions value as key</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;urlGet</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>{ &nbsp;</p><p>&nbsp;&nbsp;&nbs=
+p; "urlGet": {</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"urlToFile":&nbsp;=
+"<a href=3D"https://esdqa.medco.com/api/benefit/1/report/download/excel?rep=
+ortId=3D5b62e0910ad1fb00115b2b3f" class=3D"external-link" rel=3D"nofollow">=
+https://esdqa.medco.com/api/benefit/1/report/download/excel?reportId=3D5b62=
+e0910ad1fb00115b2b3f</a>",</p><p>&nbsp;&nbsp;&nbsp;"cookie": {</p><p>&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "KIM_USER_ROLE":&nbsp;&nbsp;&nbs=
+p;&nbsp; "SKIP",</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "KI=
+M_PAGE_VISITED": true,</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nb=
+sp;"appId": "eSDCSR" &nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbs=
+p;}, &nbsp;&nbsp;"value": "fileName"</p><p>&nbsp;&nbsp; &nbsp;}</p><p>&nbsp=
+;}</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>&nbsp;we can download document =
+or excel file by using webDownload step.</p><p>urlToFile : The endpoint of =
+the service to download&nbsp; the file.</p><p>cookie: we need to pass the r=
+equired cookie keys to download the file from above endpoint.</p><p>value :=
+ file location will be populated into session along with file name.</p></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><u><strong>SauceLabs Execution</strong></u></p>
+<p>Test case header for executing the tests against Saucelabs:</p>
+<p>Need to provide a Browser object and specify the Borwser name, version, =
+OS.</p>
+<p>Browser version is not mandatory, in case no version is explicitly speci=
+fied it takes the latest browser versions as default ( like v58 for Chrome,=
+ v11 for IE ).</p>
+<p>Default OS supported &nbsp;will be Windows 7.</p>
+<p style=3D"margin-left: 60.0px;">{<br>"testCase": {<br>"name": "MSC",<br>"=
+curator": "E54949",<br>"application": "NRx",<br>"pillar": "HD",<br>"environ=
+ment": "QA",<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp;"configuration": {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "screenshots"=
+: "off",<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "host": "<a href=3D"http://mcfl1g=
+05.medco.com" class=3D"external-link" rel=3D"nofollow">mcfl1g05.medco.com</=
+a>",<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "port": "23",</p>
+<p style=3D"margin-left: 150.0px;">"browsersetup": {</p>
+<p style=3D"margin-left: 150.0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp; "platform": "saucelabs",</p>
+<p style=3D"margin-left: 150.0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp; "browsername": "ie",</p>
+<p style=3D"margin-left: 150.0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp; "browserversion": "11",</p>
+<p style=3D"margin-left: 150.0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp; "os": "Windows 7",</p>
+<p style=3D"margin-left: 150.0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//added &nbsp;&nbsp;<time datet=
+ime=3D"2017-11-29" class=3D"date-past">29 Nov 2017</time>&nbsp;(Imran/satya=
+) - prerun is to handle the window based popups. eg: windows security in ie=
+ or Authentication required in chrome. BusinessObjects Application required=
+ this functionality.</p>
+<p style=3D"margin-left: 150.0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp; "prerun":true,</p>
+<p style=3D"margin-left: 150.0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;</p>
+<p style=3D"margin-left: 210.0px;">// added 10/30/2017 (Imran) - Below 3 pr=
+operties were added to fix IE mouse over issue. as suggested by Sauce-labs =
+team.</p>
+<p style=3D"margin-left: 150.0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp; "iedriverversion": "3.4.0",</p>
+<p style=3D"margin-left: 150.0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nb=
+sp;&nbsp;&nbsp; &nbsp;"seleniumversion": "3.4.0",</p>
+<p style=3D"margin-left: 150.0px;">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&n=
+bsp;&nbsp; &nbsp;"requirewindowfocus": true</p>
+<p style=3D"margin-left: 150.0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp; }</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">WebStep JSON Sample</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: text; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Con=
+fluence">{
+&nbsp;"testCase": {
+&nbsp;&nbsp;"name": "TMW Address Update",
+&nbsp;&nbsp;"curator": "p054949",
+&nbsp;&nbsp;"configuration": {
+&nbsp;&nbsp;&nbsp;"screenshots": "on",
+&nbsp;&nbsp;&nbsp;"host": "mcfl1g05.medco.com",
+&nbsp;&nbsp;&nbsp;"port": "23",
+&nbsp;&nbsp;&nbsp;"browser": "ie"
+&nbsp;&nbsp;},
+&nbsp;&nbsp;"testSteps": [{
+&nbsp;&nbsp;&nbsp;&nbsp;"navigate": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"url": "https://therapyworkstation-qa.express=
+-scripts.com/pcm/ADloginPage.jsp?NoSSO=3DY&amp;&amp;appName=3DHEOC&amp;isSS=
+U=3D"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"input": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"frame": "frame2",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "id",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "racfid",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "c75qa3"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"input": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "id",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "password",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "r40MZFoO3Bm28Umdj3x3oQ=3D=3D"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"click": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "id",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "submitButton"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"select": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@id=3D'rolesField']",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "DC Reviewer"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"click": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "id",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "workmix1"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"click": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@id=3D'workmix2']"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"click": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@id=3D'getworkcheck']"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"click": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@id=3D'enableSso']"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"select": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@id=3D'trcCenter']",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "General"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"click": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "id",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "submitButton"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"alert": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"action": "Cancel"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"assert": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "id",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "prrslHeaderUnJoinSelect",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "Address"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"select": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@id=3D'prrslHeaderUnJoinSel=
+ect']",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "Address"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"input": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"window": "yes",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@id=3D'memberNo']",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "575921271421"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"click": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@id=3D'btnSearch']"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"click": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@id=3D'addressLi3']/button"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"click": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@id=3D'XAEdit']"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"input": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"window": "yes",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "css",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "input#address1",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "GENERAL DELIVERY"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"input": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@id=3D'city']",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "BONITA SPRINGS"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"select": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@id=3D'state']",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "FL"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"input": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@id=3D'zip']",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "34135"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"input": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@id=3D'phone1']",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "000"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"input": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@id=3D'phone2']",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "000"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"input": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@id=3D'phone3']",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "0000"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"click": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@id=3D'btnSave']"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"click": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"window": "yes",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"selectBy": "xpath",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elementID": "//*[@title=3D'CLOSE (Alt+C)' an=
+d @type =3D 'button']"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;"browserclose": {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Close": "true"
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;]
+&nbsp;}
+}</pre>=20
+</div>=20
+</div>
+<p style=3D"margin-left: 60.0px;"><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nb=
+sp;</p>
+<p><br></p>
+<p><strong><u>ID usage for running tests on Saucelabs</u></strong></p>
+<p>For SauceLabs - we have created a Generic ID : Ninjaesi and all our curr=
+ent tests are running under this account. A sample snippet from the browser=
+ object in test json for running on SauceLabs.</p>
+<p>"browsersetup":</p>
+<p><span style=3D"color: rgb(51,51,51);text-decoration: none;">{ "platform"=
+: "saucelabs", "browsername": "chrome", "browserversion": "58", "os": "Wind=
+ows 7" }</span></p>
+<p>, This runs the test under the genetic account.</p>
+<p>Now for creating a new account in SauceLabs- Request needs to be sent fr=
+om the master account (ESI_Saucelabs, owned by Brian) to the individual and=
+ user can create the account giving his own credentials. Each application t=
+eams can create their own test account now and can provide their details in=
+ the test json for execution.</p>
+<p>"browsersetup":</p>
+<p><span style=3D"color: rgb(51,51,51);text-decoration: none;">{ "platform"=
+: "saucelabs", "sauce_userid": "XXXXX", "sauce_accesskey": "XXXXX", "browse=
+rname": "chrome", "browserversion": "58", "os": "Windows 7", }</span></p>
+<p>"ieCompatibilitySites":"<a href=3D"http://medco.com" class=3D"external-l=
+ink" rel=3D"nofollow">medco.com</a>" to add sites to IE compatibility view.=
+</p>
+<p>To add new sites compatibility please go to the following page.</p>
+<p><a href=3D"/display/QAAUT/Adding+sites+to+IE+Compatibility+views">Adding=
+ sites to IE Compatibility views</a></p>
+<p><br></p>
+<p><br></p>
+<p><u><strong>Local Execution:</strong></u></p>
+<p>Teams can continue the local test execution by passing browser as a Stri=
+ng under configuration object.</p>
+<p>{<br>"testCase": {<br>"name": "TC1",<br>"curator": "e54949",<br>"applica=
+tion": "NRx",<br>"pillar": "HD",<br>"environment": "QA",<br> <br>"configura=
+tion": {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"screenshots": =
+"off",<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"host": "<a href=
+=3D"http://mcfl1g05.medco.com" class=3D"external-link" rel=3D"nofollow">mcf=
+l1g05.medco.com</a>",<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"p=
+ort": "23", <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"browser": =
+"ie",<br>},</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p>&nbsp;&nbsp;</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_16638_529963855.1540845953956--

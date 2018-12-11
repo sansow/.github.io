@@ -1,0 +1,531 @@
+Message-ID: <1924461285.16702.1540846007999.JavaMail.confluence@ps2pr028231.express-scripts.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_16701_1341797344.1540846007999"
+
+------=_Part_16701_1341797344.1540846007999
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>JSON Elements - Control structures</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>JSON Elements - Control structures</h1>
+    <div class=3D"Section1">
+        <p>Hub Framework has a capability to execute group steps by making =
+certain decision. It supports below three type of decision making steps.</p=
+>
+<p><br></p>
+<ul>
+<li>Simple if - It&nbsp;executes group of steps if only the condition is sa=
+tisfied.</li>
+<li>if-else&nbsp;- it executes the group of steps if condition is satisfied=
+ , if not it executes other set of steps which is available in the else blo=
+ck.</li>
+<li>if ladder - it executes the group of steps if condition is satisfied , =
+like if, &nbsp;we can have multiple condition based block . if non of t he =
+condition satisfied it executes other set of steps which is available in th=
+e else block. else step is not mandatory it is an optional. it will execute=
+ only one set of steps among the multiple&nbsp; group of steps.</li>
+</ul>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><strong>Syntax</strong></p>
+<p><br></p>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 97.=
+37%;">
+<colgroup>
+<col style=3D"width: 26.54%;">
+<col style=3D"width: 36.16%;">
+<col style=3D"width: 37.32%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p>Simple If:</p><p>&nbsp;// If block</p><p>&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style=3D"color: rgb(153,51,0);"><=
+em>{ &nbsp;"if": {</em></span></p><p><span style=3D"color: rgb(153,51,0);">=
+<em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp; "expression": ""<span style=3D"color: rgb(153,51,0);"><em>=
+ </em></span></em></span></p><p><span style=3D"color: rgb(153,51,0);"><em><=
+span style=3D"color: rgb(153,51,0);"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp; }</em></span></em></span></p><p><span style=3D"color: rgb(153,51,0=
+);"><em><span style=3D"color: rgb(153,51,0);"><em>&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp; <span style=3D"color: rgb(153,51,0);"><em><span style=3D"color: rg=
+b(153,51,0);"><em>&nbsp;}</em></span></em></span></em></span></em></span></=
+p><p><span style=3D"color: rgb(153,51,0);"><em><span style=3D"color: rgb(15=
+3,51,0);"><em><span style=3D"color: rgb(153,51,0);"><em><span style=3D"colo=
+r: rgb(153,51,0);"><br></span></em></span></em></span></em></span></p><p><s=
+pan style=3D"color: rgb(153,51,0);"><em><span style=3D"color: rgb(153,51,0)=
+;"><em><span style=3D"color: rgb(153,51,0);"><em><span style=3D"color: rgb(=
+153,51,0);">.................... CAN HAVE LIST STEPS WHICH SUPPOSED TO EXEC=
+UTE IF THE CONDITION IS SATISFIED</span></em></span></em></span></em></span=
+></p><p><span style=3D"color: rgb(153,51,0);"><em><span style=3D"color: rgb=
+(153,51,0);"><em><span style=3D"color: rgb(153,51,0);"><em><span style=3D"c=
+olor: rgb(153,51,0);"><br></span></em></span></em></span></em></span></p><p=
+><span style=3D"color: rgb(153,51,0);"><em><span style=3D"color: rgb(153,51=
+,0);"><em><span style=3D"color: rgb(153,51,0);"><em><span style=3D"color: r=
+gb(153,51,0);"><br></span></em></span></em></span></em></span></p><p>&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;<span style=3D"color: rgb(153,51,0);">&nbsp; { &nbsp;"endif": {</s=
+pan></p><p><span style=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p><span style=3D"col=
+or: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp; } </span></p><p><span style=3D"color: rgb(153,51,0);">&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp; }</span></p></th>
+<th class=3D"confluenceTh"><p>if-else (If .. else):</p><p>&nbsp;// If block=
+</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style=3D"color: rgb(15=
+3,51,0);"><em>{ &nbsp;"if": {</em></span></p><p><span style=3D"color: rgb(1=
+53,51,0);"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp; "expression": ""<span style=3D"color: rgb(153,5=
+1,0);"><em> </em></span></em></span></p><p><span style=3D"color: rgb(153,51=
+,0);"><em><span style=3D"color: rgb(153,51,0);"><em>&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp; }</em></span></em></span></p><p><span style=3D"color: r=
+gb(153,51,0);"><em><span style=3D"color: rgb(153,51,0);"><em>&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp; <span style=3D"color: rgb(153,51,0);"><em><span style=
+=3D"color: rgb(153,51,0);"><em>&nbsp;}</em></span></em></span></em></span><=
+/em></span></p><p><br></p><p><span style=3D"color: rgb(153,51,0);"><em><spa=
+n style=3D"color: rgb(153,51,0);"><em><span style=3D"color: rgb(153,51,0);"=
+><em><span style=3D"color: rgb(153,51,0);">.................... CAN HAVE LI=
+ST STEPS WHICH SUPPOSED TO EXECUTE IF THE CONDITION IS SATISFIED</span></em=
+></span></em></span></em></span></p><p><br></p><p><span style=3D"color: rgb=
+(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp; { &nbsp;"else": {</span></p><p><span style=3D"color: rgb(1=
+53,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></p><p><span style=
+=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span></p><p><span style=
+=3D"color: rgb(153,51,0);"><em><span style=3D"color: rgb(153,51,0);"><em><s=
+pan style=3D"color: rgb(153,51,0);"><em><span style=3D"color: rgb(153,51,0)=
+;">.................... CAN HAVE LIST STEPS WHICH SUPPOSED TO EXECUTE IF TH=
+E CONDITION IS not SATISFIED</span></em></span></em></span></em></span></p>=
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+<span style=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp; { &nbsp;"end=
+if": {</span></p><p><span style=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p><span sty=
+le=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp; } </span></p><p><span style=3D"color: rgb(153,51,0);">&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp; }</span></p></th>
+<th class=3D"confluenceTh"><p>if ladder (if .. elseif)</p><p>&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style=3D"c=
+olor: rgb(153,51,0);"><em>{ &nbsp;"if": {</em></span></p><p><span style=3D"=
+color: rgb(153,51,0);"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "expression": ""<span style=3D"colo=
+r: rgb(153,51,0);"><em> </em></span></em></span></p><p><span style=3D"color=
+: rgb(153,51,0);"><em><span style=3D"color: rgb(153,51,0);"><em>&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</em></span></em></span></p><p><span style=
+=3D"color: rgb(153,51,0);"><em><span style=3D"color: rgb(153,51,0);"><em>&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style=3D"color: rgb(153,51,0);"><em><=
+span style=3D"color: rgb(153,51,0);"><em>&nbsp;}</em></span></em></span></e=
+m></span></em></span></p><p><span style=3D"color: rgb(153,51,0);"><em><span=
+ style=3D"color: rgb(153,51,0);"><em><span style=3D"color: rgb(153,51,0);">=
+<em><span style=3D"color: rgb(153,51,0);">.................... CAN HAVE LIS=
+T STEPS WHICH SUPPOSED TO EXECUTE IF THE CONDITION IS SATISFIED</span></em>=
+</span></em></span></em></span></p><p><br></p><p><span style=3D"color: rgb(=
+153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp; { &nbsp;"elseif": {</span></p><p><span style=3D"color: rgb(=
+153,51,0);"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp; "expression": ""</em><span style=3D"color: rgb(153,5=
+1,0);"><em> </em></span></span></p><p><span style=3D"color: rgb(153,51,0);"=
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></p><p><span style=3D"color: r=
+gb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span></p><p><span style=3D"color: r=
+gb(153,51,0);"><em><span style=3D"color: rgb(153,51,0);"><em><span style=3D=
+"color: rgb(153,51,0);"><em><span style=3D"color: rgb(153,51,0);">.........=
+........... CAN HAVE LIST STEPS WHICH SUPPOSED TO EXECUTE once else&nbsp;if=
+ CONDITION IS SATISFIED</span></em></span></em></span></em></span></p><p><b=
+r></p><p><span style=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; { &nbsp;"else": {</span>=
+</p><p><span style=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;}</span></p><p><span style=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;},</span></p><p><span style=3D"color: rgb(153,51,0);"><em><span style=
+=3D"color: rgb(153,51,0);"><em><span style=3D"color: rgb(153,51,0);"><em><s=
+pan style=3D"color: rgb(153,51,0);">.................... CAN HAVE LIST STEP=
+S WHICH SUPPOSED TO EXECUTE&nbsp;if&nbsp;non of the above expression IS not=
+ SATISFIED</span></em></span></em></span></em></span></p><p>&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=3D"color: rgb(153,51,0);=
+">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; { &nbsp;"endif": {</span></p><=
+p><span style=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=3D"color: rgb(153,51,0);">&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} </span></span></p><p><span style=3D"colo=
+r: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span></p><p>&nbsp;&nbsp;</p></th>
+</tr>
+</tbody>
+</table>
+</div>
+<p class=3D"auto-cursor-target">Mandatory Fields</p>
+<p class=3D"auto-cursor-target">expression - expression is mandatory field.=
+ the value for the expression field should be inline function which should =
+return only Boolean value (true/false).</p>
+<p class=3D"auto-cursor-target">Note : there is operator introduced. instea=
+d of operator we are leveraging with inline functions. Please refer inline =
+function page for more details.&nbsp;</p>
+<p class=3D"auto-cursor-target"><strong>Loop Statement : <br></strong></p>
+<p class=3D"auto-cursor-target">&nbsp;Hub Framework has a capability to exe=
+cute group steps by&nbsp;using the loop statement.&nbsp;</p>
+<p class=3D"auto-cursor-target"><strong>Syntax:<br></strong></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 39.=
+17%;">
+<colgroup>
+<col style=3D"width: 99.95%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><span style=3D"color: rgb(0,0,0);">//below sy=
+ntax represents the loop start</span></p><p><span style=3D"color: rgb(153,5=
+1,0);"><br></span></p><p><span style=3D"color: rgb(153,51,0);">{ </span></p=
+><p><br></p><p><span style=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp; "loopstart":</span></p><p><span style=3D"color: rgb(15=
+3,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;{ </span></p><p><span style=
+=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+ "loopName": " ", &nbsp;</span></p><p><span style=3D"color: rgb(153,51,0);"=
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;"loopSourceName": " ",</s=
+pan></p><p><span style=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp; "loopLength":" "</span></p><p><span style=3D"c=
+olor: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></p=
+><p><span style=3D"color: rgb(153,51,0);">}</span></p><p><span style=3D"col=
+or: rgb(0,0,0);"><span style=3D"color: rgb(153,51,0);"><em><span style=3D"c=
+olor: rgb(153,51,0);"><em><span style=3D"color: rgb(153,51,0);"><em><span s=
+tyle=3D"color: rgb(153,51,0);">.................... CAN HAVE LIST STEPS WHI=
+CH SUPPOSED TO EXECUTE BASED ON THE LOOP SIZE</span></em></span></em></span=
+></em></span></span></p><p><span style=3D"color: rgb(0,0,0);">//below synta=
+x represents the loop end</span></p><p><span style=3D"color: rgb(153,51,0);=
+">{&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p><span style=3D"color: rgb(153,51,0=
+);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; "loopend":</span></p><p><span sty=
+le=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nb=
+sp;{&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p><span style=3D"color: rgb(153,51,=
+0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;"name": " "&nbs=
+p;&nbsp;&nbsp;</span></p><p><span style=3D"color: rgb(153,51,0);">&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }&nbsp;</span></p><p><span style=3D=
+"color: rgb(153,51,0);"><span style=3D"color: rgb(153,51,0);">&nbsp;}</span=
+></span></p><p><span style=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;</span></p></th>
+</tr>
+</tbody>
+</table>
+</div>
+<p class=3D"auto-cursor-target">Mandatory Fields :</p>
+<p class=3D"auto-cursor-target">loopName : Any unique name should be given =
+as the name of the loop.</p>
+<p class=3D"auto-cursor-target">loopSourceName : Any response alias name sh=
+ould be given.</p>
+<p class=3D"auto-cursor-target">name: loopName and name should be same to i=
+dentify the begging and ending the loop.</p>
+<p class=3D"auto-cursor-target">Optional&nbsp; Field:</p>
+<p class=3D"auto-cursor-target">if we want execute the loop for the fixed n=
+umber of iteration the we declare the below variable in the json.</p>
+<p class=3D"auto-cursor-target">loopLength : Length of the loop.</p>
+<p><br></p>
+<p><strong>Conditional Loop Statement :</strong></p>
+<p>Hub Framework has a capability to execute group of steps by making certa=
+in decision.</p>
+<ul>
+<li>do-while : The expression appears at the end of the loop, so the statem=
+ents in the loop execute once before the expression is tested.<br>If the ex=
+pression is true, the control jumps back up to do statement, and the statem=
+ents in the loop execute again.</li>
+</ul>
+<p><strong>Syntax:</strong></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 39.=
+8888%;">
+<colgroup>
+<col style=3D"width: 100.012%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p>//below syntax represents the loop start</p><=
+p>&nbsp;&nbsp;&nbsp;<span style=3D"color: rgb(153,51,0);">&nbsp; {</span></=
+p><p><span style=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp; "do": {</span></p><p><span style=3D"color: rgb(153,51,0);">&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span></p><=
+p><span style=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; },</=
+span></p><p><span style=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp; &nbsp;=
+</span></p><p><span style=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp; .....Can have list of steps which supposed to execute based on whil=
+e condition.</span></p><p><span style=3D"color: rgb(153,51,0);">&nbsp;&nbsp=
+;&nbsp;&nbsp; &nbsp;</span></p><p><span style=3D"color: rgb(153,51,0);">&nb=
+sp;&nbsp;&nbsp;&nbsp; {</span></p><p><span style=3D"color: rgb(153,51,0);">=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "while": {</span></p><p><span st=
+yle=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp; "expression": " ",</span></p><p><span style=3D"color: rgb(153,51,=
+0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "counter": numb=
+er</span></p><p><span style=3D"color: rgb(153,51,0);">&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp; }</span></p></th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Mandatory Fields :</strong></p>
+<p><strong>expression</strong> : value for the expression field should be i=
+nline function which should return only Boolean value (true/false) ,Loop re=
+peats until the condition returns false.</p>
+<p>example : "expression": "$notequal(${StatusChangeTrigger.result[0].PROCE=
+SS_STATUS_CD},C)"</p>
+<p><strong>counter</strong> : (<strong>Mandatory</strong>)Maximum number of=
+ times require to check the condition (To Limit the no of loops).</p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_16701_1341797344.1540846007999--
